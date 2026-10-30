@@ -34,7 +34,10 @@ async def lifespan(app: FastAPI):
     print("Loading embedding model...")
 
     try:
-        state["model"] = SentenceTransformer(EMBEDDING_MODEL_NAME)
+        state["model"] = SentenceTransformer(
+    EMBEDDING_MODEL_NAME,
+    device="cpu"
+)
 
         # Check/create collection without deleting existing data
         ensure_collection()
