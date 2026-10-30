@@ -12,3 +12,9 @@ wheels/
  
 .env.*
 !.env.example
+# Project files/folders to exclude
+knowledge.txt
+document.pdf
+Practice/
+frontend/
+
