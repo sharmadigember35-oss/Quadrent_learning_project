@@ -36,8 +36,10 @@ async def lifespan(app: FastAPI):
     try:
         state["model"] = SentenceTransformer(
     EMBEDDING_MODEL_NAME,
-    device="cpu"
+    device="cpu",
+    model_kwargs={"low_cpu_mem_usage": True}
 )
+      
 
         # Check/create collection without deleting existing data
         ensure_collection()
