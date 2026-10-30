@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Transcript Search</title>
+<style>
+  :root { --bg:#f6f7fb; --card:#fff; --text:#1c1e26; --muted:#6b7280; --accent:#4f46e5; --border:#e5e7eb; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0f1117; --card:#181b24; --text:#e8eaf0; --muted:#9aa1b2; --accent:#818cf8; --border:#2a2e3b; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:system-ui,sans-serif; background:var(--bg); color:var(--text); }
+  main { max-width:760px; margin:0 auto; padding:32px 16px; }
+  h1 { margin:0 0 4px; font-size:1.6rem; }
+  .sub { color:var(--muted); margin-bottom:24px; }
+  form { display:flex; gap:8px; }
+  input { flex:1; padding:12px 14px; border-radius:10px; border:1px solid var(--border); background:var(--card); color:var(--text); font-size:1rem; }
+  button { padding:12px 20px; border:0; border-radius:10px; background:var(--accent); color:#fff; font-size:1rem; cursor:pointer; }
+  button:disabled { opacity:.6; cursor:wait; }
+  .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px; margin-top:16px; }
+  .answer { white-space:pre-wrap; line-height:1.55; }
+  .src h3 { margin:0 0 6px; font-size:1rem; }
+  .meta { color:var(--muted); font-size:.85rem; margin-bottom:6px; }
+  .src a { color:var(--accent); text-decoration:none; font-weight:600; }
+  .err { color:#dc2626; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Transcript Search</h1>
+  <div class="sub">Ask a question and jump to the exact moment in the video.</div>
+
+  <form id="form">
+    <input id="q" placeholder="e.g. What is a binary search tree?" autocomplete="off" required>
+    <button id="btn" type="submit">Ask</button>
+  </form>
+
+  <div id="out"></div>
+</main>
+
+<script>
+  // Same server serves this page, so "" works. If you host the frontend
+  // elsewhere, set this to your backend URL, e.g. "https://my-api.onrender.com"
+  const API_BASE = "";
+
+  const form = document.getElementById("form");
+  const out = document.getElementById("out");
+  const btn = document.getElementById("btn");
+
+  function esc(s) {
+    const d = document.createElement("div");
+    d.textContent = s ?? "";
+    return d.innerHTML;
+  }
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const question = document.getElementById("q").value.trim();
+    if (!question) return;
+
+    btn.disabled = true;
+    out.innerHTML = '<div class="card">Searching…</div>';
+
+    try {
+      const res = await fetch(API_BASE + "/ask", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ question })
+      });
+      if (!res.ok) throw new Error((await res.json()).detail || res.statusText);
+      const data = await res.json();
+
+      let html = `<div class="card"><strong>Answer</strong><div class="answer">${esc(data.answer)}</div></div>`;
+
+      if (data.answered) {
+        html += data.sources.map(s => `
+          <div class="card src">
+            <h3>${esc(s.title)}</h3>
+            <div class="meta">${esc(s.timestamp)} · relevance ${s.score}</div>
+            <div>${esc(s.text)}</div>
+            ${s.youtube_url ? `<p><a href="${esc(s.youtube_url)}" target="_blank" rel="noopener">▶ Watch at ${esc(s.timestamp)}</a></p>` : ""}
+          </div>`).join("");
+      }
+      out.innerHTML = html;
+    } catch (err) {
+      out.innerHTML = `<div class="card err">Error: ${esc(err.message)}</div>`;
+    } finally {
+      btn.disabled = false;
+    }
+  });
+</script>
+</body>
+</html>

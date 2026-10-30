@@ -1,0 +1,1507 @@
+[
+  {
+    "question": "memoization aur tabulation me kya difference hai",
+    "status": "PASS",
+    "reason": "Expected video and timestamp found",
+    "answer": "Memoization – एक रिकर्सिव (पुनरावर्ती) तरीका है जिसमें पहले की गणनाओं को सहेज के बार‑बार उन्हें नहीं गणना करते।  \nTabulation – एक इटरेटिव (पुनरावृत्त) तरीका है जिसमें एक टेबल बनाकर छोटे‑छोटे सब‑प्रॉब्लेम को क्रमशः भरा जाता है।\n\n**स्रोत**  \n- वीडियो: *DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This*  \n- टाइम‑स्टैम्प: 03:54 – 04:00  \n- URL: https://www.youtube.com/watch?v=yEwnsPI_tUY&t=234s  \n\n(यहाँ कहा गया है: “memoization which is a form of recursion and tabulation which is an iterative form.”)",
+    "retrieved": [
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1998.66,
+        "score": 0.7727948,
+        "text": "tabulation is considered good with memoization."
+      },
+      {
+        "video_id": "M0XjVs41H2s",
+        "title": "DP in 15 Days Episode 08 | Subset Sum Equals to Target",
+        "start": 1448.61,
+        "score": 0.66691947,
+        "text": "Memoization to tabulation. How do we make a tabulation? Today we feel that we are going a little fast, but now you have learned. Now you are not kids, you have learned to a great extent. Now you can do it. Because if we do the same thing again and again for 1-1.5 hours, it will not be fun. How do we make memoization to tabulation? If you have seen the video of Napsa, then you have to do the same thing. What do you have to do?"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 234.74,
+        "score": 0.66150284,
+        "text": "memoization which is a form of recursion and tabulation which is an iterative form."
+      },
+      {
+        "video_id": "cmSh2xbyX7g",
+        "title": "Introduction To Dynamic Programming | Dynamic Programming in 15 days",
+        "start": 926.88,
+        "score": 0.65259457,
+        "text": "There is no need to do anything else. Memoization is very easy. There may be some problem in tabulation. We will learn that later. We want to make your memoization perfect for the next 6-7 days. Again, we are saying the same thing. Watch the basics playlist. It is very good. Watch the video of HashMap. It is very nice. Watch the playlist of recursion. And we will say that watch mine. Because I have a style to teach. So we will continue the style we are teaching there. You can watch someone else's. There is no such problem. But what will happen?"
+      },
+      {
+        "video_id": "w9qndpVOHks",
+        "title": "DP Series Episode 11 LIS: From Recursion to Tabulation",
+        "start": 25.01,
+        "score": 0.62494886,
+        "text": "Memoization was also learned that we will memorize it too. Very good. But in this tabulation and optimized tabulation, its tabulation is a little different. And there will be no talk of tabulation either. In this, you will have to do the binary search approach in the last. Meaning that in the last, you will have to think of the n log n approach in this. And you will have to do that only. Otherwise, the interviewer will not agree. So today we will complete this whole thing. Is it too hard? It is a little hard. I mean, even if it is hard, we will explain it to you well. You will remember it all your life."
+      }
+    ]
+  },
+  {
+    "question": "overlapping subproblem kaise pehchane",
+    "status": "FAIL",
+    "reason": "Expected video/timestamp not found in top 5",
+    "answer": "**Answer**\n\nOverlapping sub‑problems को पहचानने के लिए आप इन संकेतों पर ध्यान दें:\n\n1. **एक ही समस्या (state) को कई बार हल किया जा रहा हो** – जैसे‑कि “You are repeating the same thing 20 times.”  \n2. **Recursive calls में वही पैरामीटर बार‑बार आ रहा हो** – जिससे वही परिणाम कई बार गणना किया जाता है।  \n3. **समाधान में बहुत सारे समान‑समान sub‑problems बनते हों** – यह दर्शाता है कि sub‑problems एक‑दूसरे के ऊपर ओवरलैप कर रहे हैं।  \n\nजब आप देखते हैं कि बिना मेमॉइज़ेशन/टैबुलेशन के वही sub‑problem बार‑बार compute हो रहा है, तो वह **overlapping sub‑problem** है और DP (Dynamic Programming) लागू करने का सही समय है।\n\n**Reference**  \n- Video: **DP Series Episode‑2 : When And How To Use DP**  \n- Timestamp: **25:44 – 26:11**  \n- URL: https://www.youtube.com/watch?v=-CvRpL_iUKo&t=1544s  \n\n(Transcript excerpt: “You are repeating the same thing 20 times. This is why DP is applied in this question because you are doing overlapping subproblems…”)",
+    "retrieved": [
+      {
+        "video_id": "FMhXZU-eUNQ",
+        "title": "DP in 15 Days Episode 4 House Robber Dynamic Programming",
+        "start": 2381.65,
+        "score": 0.45790255,
+        "text": "Your code has become the code of DP Memoization. What was the first method? Recursion. You have seen all the possible methods. Very good. Now whose code is this? Now it is the code of DP. Why? Because now you will not calculate overlapping subproblems again and again. If you think that you know the answer, then you will return from here. All this will work or not? It will never work. So you will return from here. What happened?"
+      },
+      {
+        "video_id": "mMKZmo3iyyM",
+        "title": "Master Stack DSA Pattern With 3 Questions | DSA Patterns Course",
+        "start": 2872.51,
+        "score": 0.41080523,
+        "text": "Without pushing and popping again and again, how are you making your stack? Let's go. Come to the next E. Now, tension is needed. Again, it is matching with the top of the ST. But have the inner ones combined K-1 times? Yes, they have. E has come twice. It means that your stack looks like this. D, E, E. If you add another E here, then these three will combine and become K times. You don't want that. Now, pop all of them. It means, don't push this. Pop the inner ones too. What should you do to the inner ones? Pop them. Let's go."
+      },
+      {
+        "video_id": "-CvRpL_iUKo",
+        "title": "DP Series Episode-2 : When And How To Use DP",
+        "start": 1544.34,
+        "score": 0.40323144,
+        "text": "You are repeating the same thing 20 times. This is why DP is applied in this question because you are doing overlapping subproblems. How to apply DP in this? I will tell you that too. It is a 5 minute work. Now, the main part. How to apply DP? So, DP is not applied anywhere. There is no problem that it has to be applied. See. First of all, write the recursion. We have written the recursion of Fibonacci. It is the upper code. We have just compacted this line to tell you. It doesn't matter. Write the recursion. After that,"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 128.74,
+        "score": 0.3790415,
+        "text": "After that, we saw whether there is an overlapping problem in this."
+      },
+      {
+        "video_id": "aH5aeejuJU8",
+        "title": "DSA Patterns L31 | Master Merge Interval DSA Patterns | MERGE INTERVALS LEETCODE",
+        "start": 482.91,
+        "score": 0.36667445,
+        "text": "what is overlapping? how is it being overlapped? you are saying that I have one category which is of Rs. 10-15 so let's keep this and when you make the next category then you should have made the next category of Rs. 16 the next category you should have said that I have a different category of Rs. 16-20 if you have made it till Rs. 20 then you should have said that the next category is of Rs. 21-30 but you are saying that there is a category of Rs. 10-15 and in between that you have said that there is a different category of Rs. 12-16"
+      }
+    ]
+  },
+  {
+    "question": "0/1 knapsack ka recursion kaise likhe",
+    "status": "FAIL",
+    "reason": "Expected video/timestamp not found in top 5",
+    "answer": "**Answer (in Hindi)**  \n\n0/1 Knapsack के रिकर्शन को आप दो पैरामीटर के साथ लिख सकते हैं – `i` (वर्तमान आइटम का इंडेक्स) और `capacity` (बैग की बची हुई क्षमता)।  \n\n```cpp\n// i = current item index (0‑based)\n// capacity = remaining weight capacity of the knapsack\nint knap(int i, int capacity) {\n    // बेस केस\n    if (i == n || capacity == 0)          // सभी आइटम देख लिये या बैग भर गया\n        return 0;\n\n    // अगर i‑वें आइटम का वजन capacity से बड़ा है → इसे छोड़ दो\n    if (weight[i] > capacity)\n        return knap(i + 1, capacity);\n\n    // दो विकल्प: 1) आइटम को न ले‑ओ, 2) ले‑ओ और उसकी वैल्यू जोड़‑ओ\n    int take    = value[i] + knap(i + 1, capacity - weight[i]);\n    int notTake = knap(i + 1, capacity);\n\n    return max(take, notTake);\n}\n```\n\n- **`i == 0`** से शुरू करो (पहला आइटम) और `capacity` को बैग की कुल क्षमता से सेट करो।  \n- हर कॉल में या तो **आइटम को छोड़ते** हैं (`knap(i+1, capacity)`) या **लेते** हैं (`value[i] + knap(i+1, capacity‑weight[i])`)।  \n- अंत में सबसे बड़ा वैल्यू रिटर्न होगा – यही 0/1 Knapsack का ऑप्टिमल सॉल्यूशन है।\n\n> यह तरीका उसी बात से मेल खाता है जो *Back After Break! 0-1 Knapsack Tabulation* वीडियो में बताया गया है:  \n> *“`i` is equal to zero means you have to take decision on first item and capacity is equal to whatever capacity you were given…*”*【LWDYXNN4SHU.json, 04:20–04:41】  \n\nयदि आप इस रिकर्शन को मेमॉइज़ (टैबुलेशन) करना चाहते हैं, तो `dp[i][capacity]` ऐरे में पहले से गणना किए हुए मानों को स्टोर कर सकते हैं।  \n\n---  \n\n**References**  \n- *Back After Break! 0-1 Knapsack Tabulation* – 04:20–04:41 – https://www.youtube.com/watch?v=LWDYXNN4SHU&t=260s  \n\n(उपरोक्त कोड केवल समझाने के लिये है; वास्तविक इम्प्लीमेंटेशन में `n`, `weight[]`, `value[]` को उचित रूप से परिभाषित करना होगा।)",
+    "retrieved": [
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 180.74,
+        "score": 0.5980271,
+        "text": "so fibonacci, house robber, 0-1 knapsack"
+      },
+      {
+        "video_id": "Yp1G_KY7-wY",
+        "title": "DP In 15 Days Episode 5 : 0/1 Knapsack | Master Dynamic Programming",
+        "start": 0.11,
+        "score": 0.56621826,
+        "text": "Welcome kids to Podho with Pratyush in the DP series. If you are coming for the first time, then do check out the description. Today's question is what is it? Zero-one knapsack. You must have heard the name of it. The good thing about the whole question of DP is that you have heard the name of it. You don't know the name, it's a different thing for you, but everyone hears the name somewhere. So today's question is very easy, especially if you watch yesterday's video, that is, watch Monday's video, then you won't take more than 5 minutes to understand this question."
+      },
+      {
+        "video_id": "Yp1G_KY7-wY",
+        "title": "DP In 15 Days Episode 5 : 0/1 Knapsack | Master Dynamic Programming",
+        "start": 115.28,
+        "score": 0.558167,
+        "text": "Every item has a weight. Let's assume that the item worth Rs. 5 has a weight of 4 kg. The item worth Rs. 2 has a weight of 5 kg. And the item worth Rs. 4 has a weight of 3 kg. What is its weight? It is 3 kg. Now you have a knapsack. You have a bag. You are a person who has come to collect items. You have a bag."
+      },
+      {
+        "video_id": "OaHw9ZZHknw",
+        "title": "Greedy Algorithms: From Zero to Interview-Ready",
+        "start": 3063.09,
+        "score": 0.55356437,
+        "text": "Go to every town and check if you had the sense to come to this town or not. If you didn't, then turn it to false. You won't be able to move forward. You have come to the wrong town. Let's move on to the last question. Fractional knapsack. There was a knapsack in DP as well. What did it mean? Zero-one knapsack. It means fractional knapsack. This is the distinction due to which zero-one knapsack is taught in DP and this is taught in greedy. Let me tell you."
+      },
+      {
+        "video_id": "LWDYXNN4SHU",
+        "title": "Back After Break! 0-1 Knapsack Tabulation | Best DP Playlist 2026",
+        "start": 260.02,
+        "score": 0.53948253,
+        "text": "int capacity means when you are making this decision then what is the capacity of your knapsack at that time initially when we call recursion then from whom we used to call? i is equal to zero means you have to take decision on first item and capacity is equal to whatever capacity you were given because originally there is nothing in your bag so whatever the capacity of your bag is given that becomes your capacity"
+      }
+    ]
+  },
+  {
+    "question": "longest increasing subsequence kaise solve kare",
+    "status": "PASS",
+    "reason": "Expected video and timestamp found",
+    "answer": "**How to solve the Longest Increasing Subsequence (LIS) problem**\n\n1. **Understand what “increasing” means** – It must be **strictly increasing**.  \n   *If a subsequence contains equal numbers (e.g., 5, 5, 10) it is **not** considered increasing.*【06:42–07:12】\n\n2. **What you have to return** – The problem asks for the **length of the longest strictly increasing subsequence**, not the subsequence itself.  \n   *In the example shown, the longest possible length is 4; you will never be able to get a length of 5 for that array.*【06:14–06:42】\n\n3. **Typical example** – For an array like `[1, 2, 5, …]` the LIS is `1, 2, 5`, whose length is 3. You cannot make a longer increasing subsequence because the array length limits it.【07:40–08:06】\n\n4. **Key rule while building the subsequence** – If you pick a larger number (e.g., 4) and later encounter a smaller one (e.g., 1), you cannot include the smaller number after the larger one; the subsequence would break.【11:22–11:50】\n\n---\n\n**Video reference**\n\n- **Title:** *Episode 10 of DP in 15 Days | Longest Increasing subsequence part 1*  \n- **Timestamp:** 06:14 – 06:42 (explains what to return and the maximum length)  \n- **URL:** https://www.youtube.com/watch?v=CdGBURVBMn4&t=374s  \n\nThese points give you the conceptual steps to solve the LIS problem as described in the video.",
+    "retrieved": [
+      {
+        "video_id": "CdGBURVBMn4",
+        "title": "Episode 10 of DP in 15 Days | Longest Increasing subsequence part 1",
+        "start": 402.67,
+        "score": 0.5812903,
+        "text": "From the increasing subsequence, you have to return the longest increasing subsequence. The longest one. You have to return its length. In this question, you will not be able to return an increasing subsequence greater than 4. And one more thing. When we are telling you increasing, then is it strictly increasing? Strictly increasing means, if your subsequence is like this, 5, 5, 10, then you will feel that this is also increasing. No, this is not increasing because,"
+      },
+      {
+        "video_id": "CdGBURVBMn4",
+        "title": "Episode 10 of DP in 15 Days | Longest Increasing subsequence part 1",
+        "start": 682.1,
+        "score": 0.57023805,
+        "text": "Your longest increasing subsequence will break. If you have taken 4 and come here. As soon as you put 1 after 4. This is not an increasing subsequence. So leave the longest. It is not in increasing subsequence. Meaning. If you have taken 4. And you have come to 1. You will have only one way left in the world. Which way will be left in the world? You can't take it. You can't take it at all. You have to go ahead. Similarly."
+      },
+      {
+        "video_id": "CdGBURVBMn4",
+        "title": "Episode 10 of DP in 15 Days | Longest Increasing subsequence part 1",
+        "start": 374.18,
+        "score": 0.55906445,
+        "text": "3, 7, 18. So, these are all increasing subsequences. But, what do you have to return? You have to return the longest one. What can you make the longest increasing subsequence? In this question, what can be the length of the longest increasing subsequence? Your answer will be, you can make it of 4 lengths. You will not be able to make an increasing subsequence of 5 lengths in this array. You can try that and see. What do you have to return?"
+      },
+      {
+        "video_id": "CdGBURVBMn4",
+        "title": "Episode 10 of DP in 15 Days | Longest Increasing subsequence part 1",
+        "start": 460.7,
+        "score": 0.5253247,
+        "text": "the length of the longest increasing subsequence. So, the question will be clear. Now, let's understand this question. Now, start understanding this question. Suppose, this is your array. In this, you have to find the length of LIS. So, by looking at this, you will know that LIS will be 1, 2, 5. If we make this length, it means 3 lengths. We will not be able to make more than 3. Because the length of the array is 4. It is not possible to take 4. Can we make it of 3 lengths? 1, 2, 5. Okay."
+      },
+      {
+        "video_id": "CdGBURVBMn4",
+        "title": "Episode 10 of DP in 15 Days | Longest Increasing subsequence part 1",
+        "start": 318.88,
+        "score": 0.51615626,
+        "text": "went up and then came to 3. This is also not an increasing subsequence. Increasing means it should always be increasing. It should be increasing as much as it is. This is also not an increasing subsequence. Look at one more. 2, 5, 7, 1, 0, 1. Is this an increasing subsequence? Yes, yes, yes. This is increasing. After 2, 5 came. After 5, 7 came. After 7, 101 came. What is this subsequence called? Increasing subsequence. What?"
+      }
+    ]
+  },
+  {
+    "question": "two pointer technique kab use karte hain",
+    "status": "FAIL",
+    "reason": "Expected video/timestamp not found in top 5",
+    "answer": "I don't know based on the provided JSON transcripts.",
+    "retrieved": [
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 874.14,
+        "score": 0.5013678,
+        "text": "kaunsa dp ka slot bharaja raha hai"
+      },
+      {
+        "video_id": "dyG4JBKh6tA",
+        "title": "DP Full Revision and Next Steps | DP Series Episode 16",
+        "start": 275.65,
+        "score": 0.47920585,
+        "text": "Problem ko, chai wala jo isme dimaag lagaya na, isi cheez ko technical terms mein memoization bolte hain. Memoization ka kya matlab hota hai? Memory ka kya matlab hota hai? Yad rakhna cheez ho ko. Toh overlapping sab problems hota hai na, ki aap baar baar ek hi cheez solve kar rahe hain. Baar baar ek hi, ek hi, ek hi, ek hi kaam baar baar karte the. Toh baar baar kyo kar rahe ho kaam? Ek baar agar koi kaam kar liye ho, uska answer yad rakh lo na kahin pe."
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1763.48,
+        "score": 0.4750709,
+        "text": "ko thoda change karna padega."
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1775.24,
+        "score": 0.47484887,
+        "text": "karne bhi, dp of 0 ke betha hua hai."
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1680.88,
+        "score": 0.47433,
+        "text": "ab dekhiye am kya khel karte hain"
+      }
+    ]
+  },
+  {
+    "question": "sliding window ka pattern kaise pehchane",
+    "status": "PASS",
+    "reason": "Expected video and timestamp found",
+    "answer": "**Answer**\n\nTo recognize (identify) a sliding‑window pattern in a problem, follow these cues:\n\n1. **Look for a contiguous sub‑array / sub‑string that you need to examine** – e.g., “find the maximum sum of K consecutive elements”, “longest substring with …”, etc.  \n2. **Check if the size of that sub‑array is fixed or can change** – a fixed‑size window has a given K; a variable‑size window expands or shrinks based on a condition.  \n3. **Ask yourself: “Is the problem asking me to slide a window over the data until a condition is met?”** – if yes, it’s a sliding‑window question.  \n\nThese steps are described in the video:\n\n- **Video title:** *DSA PATTERNS Episode 11 Sliding Window Pattern: Easy & Medium Questions*  \n- **Timestamp:** 04:23 – 04:53  \n- **YouTube URL:** https://www.youtube.com/watch?v=DL8LSXUsfWE&t=263s  \n\nThe speaker says the **first step is to “identify pattern”** – i.e., determine whether the problem is a sliding‑window problem by checking for the above characteristics.",
+    "retrieved": [
+      {
+        "video_id": "DL8LSXUsfWE",
+        "title": "DSA PATTERNS Episode 11 Sliding Window Pattern: Easy & Medium Questions",
+        "start": 483.12,
+        "score": 0.62077606,
+        "text": "First of all, find out the information of that window in any way. Now start in any way. We will discuss all this further. This is just an approach. There are four steps to solve any sliding window pattern. Apart from this, no step, no question is asked anywhere. Now what is the fourth step? You have found out the starting of a window. It must be starting from somewhere and its size is very good."
+      },
+      {
+        "video_id": "DL8LSXUsfWE",
+        "title": "DSA PATTERNS Episode 11 Sliding Window Pattern: Easy & Medium Questions",
+        "start": 263.78,
+        "score": 0.6115924,
+        "text": "Sliding window pattern. First of all, what is sliding window? This is in the introduction video. Go and see in the playlist. What is the addition in that? Any question of sliding window. Any question of sliding window has three steps. What happens in that? There are three steps. Okay. The first step is identify pattern. The first step is identify pattern. Meaning, is this a sliding question or not? So, we have already done this work. Very good."
+      },
+      {
+        "video_id": "V6pRTnOZ7Mc",
+        "title": "DSA PATTERNS Episode 10 | Introduction to Sliding Window",
+        "start": 0.24,
+        "score": 0.5725144,
+        "text": "Welcome to the second pattern, which is Sliding Window. Those who have seen the two-pointer, it will be very easy for them to see this sliding window. Those who have not seen it, it will be easy for them too. There is nothing like that. But make sure that this introduction video is an introduction video. Okay. This is an introduction, meaning you will get a flow chart in this. In this, you will know the rules that when to use this pattern and how to use it."
+      },
+      {
+        "video_id": "v4pIgiBQMh8",
+        "title": "DSA PATTERNS Episode 12 Sliding Window Pattern: Core Interview Questions",
+        "start": 112.3,
+        "score": 0.57238555,
+        "text": "Variable size window. Okay. I told you about 4 steps of sliding window. Everyone will remember those 4 steps. That what is done. The most important step was this one. Is it fixed or variable? Did you understand? Okay. For fixed, there is a set pattern, set template. What is it? Let me revise it quickly. What do we do in fixed? We keep low equal to 0. High is equal to whatever window size you have given. If K is given."
+      },
+      {
+        "video_id": "DL8LSXUsfWE",
+        "title": "DSA PATTERNS Episode 11 Sliding Window Pattern: Easy & Medium Questions",
+        "start": 548.43,
+        "score": 0.5355167,
+        "text": "Keep repeating this until you reach the end of the array, or until you get your answer, or until your window is finished. Any end condition can happen. It means that there are 4 steps in the pattern of any sliding window. Let's see it again. First of all, identify whether there is a sliding window or not. Done."
+      }
+    ]
+  },
+  {
+    "question": "kadane's algorithm ka intuition kya hai",
+    "status": "FAIL",
+    "reason": "Expected video/timestamp not found in top 5",
+    "answer": "I don't know based on the provided JSON transcripts.",
+    "retrieved": [
+      {
+        "video_id": "vcx1HWoHK1o",
+        "title": "Intro To Graphs DSA Pattern | Master Graphs in 12 Days | Zero",
+        "start": 1125.73,
+        "score": 0.5668346,
+        "text": "Kya Aman Sunita ko follow karta hai? Kya Aman Sunita ko follow karta hai? Aap jhataak se dekhe bata sakte hai. Agar yeh 1 hai to follow karta hai, 0 hai to nahi karta hai. Kya Aman Pratyush ko follow karta hai? Turant dekhe pata chal jayega ki nahi Aman Pratyush ko follow nahi karta hai isko dekhe, 0 dekhe. To yeh bahut fast hai, bahut accha azaar ko pata chalega. Lekin, yeh jo space ka problem hai na, iske liye yeh use nahi hota. Asa nahi ki nahi hota hai. Aapko DSA problem mein yeh aega, aapko yeh aana chahiye iske liye bata diye. Isko kya kate hai? Adjacency matrix. Adjacency matrix."
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 866.96,
+        "score": 0.5512664,
+        "text": "kya hai"
+      },
+      {
+        "video_id": "CDo0V5Jbb2o",
+        "title": "Introduction to Binary Search Tree! Don't Miss",
+        "start": 1076.85,
+        "score": 0.54380286,
+        "text": "Node right and K. Yes. And return. Khatam. Khatam. Khatam. Yeh program. Dekhiye. Isme kabhi bhi ham log dono me nahi ja rahe hain. Upar wale code me kaha jaate the. Dono me. Left right dono me. Yeh linear search tha. Yeh to aisa tha ki unsorted array me search kar rahe hain. To kya karoge. Pura array search karo bhai. Aur kya kar sakte. Lekin. Yeh ek sorted array ki tarah behave karta hai. Ek iske tarah behave karta hai. Ek sorted array ki tarah. Batahin ki kaise behave karta hai. To isme ham log kya karene. Har baar. Ya to left ya to right. Ya to left ya to right. Order of."
+      },
+      {
+        "video_id": "A3sZWwalzz4",
+        "title": "We Crossed 50K! Let's Study Bellman-Ford NOW",
+        "start": 1714.0,
+        "score": 0.53515655,
+        "text": "testing karne ke liye ek aur baar karo, ek aur baar karo. Agar us ek aur baar me koi sahi answer nahi, koi acha answer nahi mila, koi update nahi hua, very good, return kar do. Agar us nth baar me, agar aapko pata chalene lagta hai ki nahi, abhi bhi chota answer mil raha hai kisi ka to, wo graph ekdum gone case hai, bekaar graph, negative case ka graph hai, usme minus one return kar do. Yeh hota hai Bellman-Ford. Thik hai. Toh umeet karte hai ki aapko samajh me aaya hoga, bahut acche se."
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 874.14,
+        "score": 0.5292947,
+        "text": "kaunsa dp ka slot bharaja raha hai"
+      }
+    ]
+  },
+  {
+    "question": "prefix sum ka use kahan hota hai",
+    "status": "FAIL",
+    "reason": "Expected video/timestamp not found in top 5",
+    "answer": "I don't know based on the provided JSON transcripts.",
+    "retrieved": [
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 961.84,
+        "score": 0.6305838,
+        "text": "Kahan pe aapko mila hai"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 866.96,
+        "score": 0.60419536,
+        "text": "kya hai"
+      },
+      {
+        "video_id": "ZvYJT_QwnEw",
+        "title": "Tree Traversals Made Simple! Preorder Inorder Postorder",
+        "start": 517.25,
+        "score": 0.5966414,
+        "text": "Sumit ko chocolate de denge. Sumit ko chocolate de denge. Chocolate kaha gaya? Sumit ke paas aachuka hai. Very good. Sumit. Sumit ka kaam kya hona chahiye? Apne left wale bete ko de dena. Lekin, kya Sumit ka left beta apko dikh raha hai? Nahi. Sumit ki shaadi nahi hui hai. Sumit ka left beta nahi dikh raha hai. Koi baat nahi. Left beta nahi dikh raha hai. Toh kya kaam hai Sumit ka? Khud khaalo chocolate. Khud khaalo. Toh jo aadmi khud agla chocolate khaaya wo? Sumit hoga. Very good."
+      },
+      {
+        "video_id": "K1idN2Rqcmw",
+        "title": "Learn DSA Like Never Before | Master Stack DSA Pattern With This Simple Trick",
+        "start": 1282.67,
+        "score": 0.5886674,
+        "text": "Rakhna hai ki nahi? Rakhna hai ki nahi?"
+      },
+      {
+        "video_id": "O04KAy7cLBs",
+        "title": "Master DFS/BFS in Graphs | Graph series DSA Patterns",
+        "start": 2400.38,
+        "score": 0.57947814,
+        "text": "Front wala. Front wala. Kya hai front me? Two. Dhiyan se dekhiye. Zero ka pehla number kya tha? Two tha. Kya pehle two nikal raha hai? Haan. Dekhiye order kese maintain hota hai. Kya nikala front se? Two. Two ko pop kar dijiye. Two ko apne result me likh dijiye. Two ko apne result me likh dijiye. Very good likh diye. Kya karna hai? Same kaam karna hai."
+      }
+    ]
+  },
+  {
+    "question": "merge intervals kaise solve karte hain",
+    "status": "FAIL",
+    "reason": "Expected video/timestamp not found in top 5",
+    "answer": "**Merge Intervals को हल करने का तरीका (सरल चरण)**  \n\n1. **इंटरवल्स को सॉर्ट करें** – सभी इंटरवल्स को उनके **शुरू (start) समय** के आधार पर आरोही क्रम में व्यवस्थित करें।  \n2. **पहले इंटरवल को प्रारम्भिक “मर्ज्ड” इंटरवल बनाएं** – जैसा कि *L32* वीडियो में बताया गया है: “पहले इंटरवल को हमारे शुरुआती बिंदु के रूप में मानते हैं”【yAopxaHmRn0.json, 15:57‑16:24】।  \n3. **एक‑एक करके आगे के इंटरवल्स देखें**  \n   - यदि अगला इंटरवल का **start** वर्तमान मर्ज्ड इंटरवल के **end** से **≤** है, तो दोनों ओवरलैप होते हैं।  \n   - ओवरलैप होने पर **end** को `max(current_end, next_end)` से अपडेट करें (इंटरवल को मिलाएँ)।  \n   - यदि ओवरलैप नहीं होता, तो वर्तमान मर्ज्ड इंटरवल को उत्तर (answer) सूची में जोड़ें और अगला इंटरवल को नया “मर्ज्ड” इंटरवल बनाकर प्रक्रिया दोहराएँ।  \n4. **अंत में अंतिम मर्ज्ड इंटरवल को भी उत्तर में जोड़ें**।  \n\n**उदाहरण** (जैसे *L31* में दिखाया गया):  \n- मूल इंटरवल्स: `[1,3] , [2,6] , [8,10] , [15,18]`  \n- मर्ज करने के बाद: `[1,6] , [8,10] , [15,18]` (यहाँ `1‑3` और `2‑6` ओवरलैप करके `1‑6` बनते हैं)【aH5aeejuJU8.json, 39:33‑40:03】।  \n\n---\n\n**संदर्भ**  \n\n- **वीडियो:** *L32 | Master DSA Pattern Merge Interval | Leetcode Merge Intervals*  \n  - टाइम‑स्टैम्प: 15:57‑16:24  \n  - URL: https://www.youtube.com/watch?v=yAopxaHmRn0&t=957s  \n\n- **वीडियो:** *DSA Patterns L31 | Master Merge Interval DSA Patterns | MERGE INTERVALS LEETCODE*  \n  - टाइम‑स्टैम्प: 39:33‑40:03  \n  - URL: https://www.youtube.com/watch?v=aH5aeejuJU8&t=2373s  \n\nइन चरणों को कोड में लागू करने पर “Merge Intervals” समस्या का समाधान मिल जाता है।",
+    "retrieved": [
+      {
+        "video_id": "b-qtjXsGfqo",
+        "title": "L34 DSA Patterns 2025 | Merge Overlapping Intervals | Merge Interval DSA Pattern",
+        "start": 0.0,
+        "score": 0.5925881,
+        "text": "Come to episode 34 of Merge Interval. Today's question is very easy. It is going to be a very short video. You will get it in 5 minutes. Provided that you have watched 31, 32 and 33. If you have watched it, it is a 5 minute work. If you have not watched it, then please watch it. That is why we are making it in a line. It is not a series of Mirzapur that we watch it in the middle or not. We will not know that if we watch it in the middle. Let's go. It is a very simple question. Its name is Overlapping Intervals. You will get the sheet. You will get a question in the sheet. Overlapping Intervals."
+      },
+      {
+        "video_id": "yAopxaHmRn0",
+        "title": "L32 | Master DSA Pattern Merge Interval | Leetcode Merge Intervals",
+        "start": 957.62,
+        "score": 0.5759151,
+        "text": "3, 5 And because we have inserted it, it has become 4, 8. Okay. And then 6, 7. 8, 10. And 12 and 16. We have to do this. So, this is 0, 1, 2, 3, 4, 5. What we used to do in merge interval? Those who haven't seen the previous one, it will be revision for them. So, first of all, the first one. We used to consider the first interval as our starting point. That now let's start with this. So, our one."
+      },
+      {
+        "video_id": "aH5aeejuJU8",
+        "title": "DSA Patterns L31 | Master Merge Interval DSA Patterns | MERGE INTERVALS LEETCODE",
+        "start": 2373.97,
+        "score": 0.56437194,
+        "text": "We will put 15 and 18 in the answer. So see, this is your answer. What is missing? This part is missing. 2, 6 is completely missing. 2, 6 and 1, 3. What is made by merging? 1, 6. 8, 10 was already independent. So 8, 10 as it is came. 15, 18 was already independent. So 15, 18 came like this. So this is your merge interval. You have to return this. Now we will see how to code it and how to write it. Same logic. How to code? So first of all,"
+      },
+      {
+        "video_id": "o-ozvzzFpKA",
+        "title": "35. DSA PATTERNS 2025 | Master Merge Interval With Interview Questions | FAANG",
+        "start": 768.8,
+        "score": 0.49135083,
+        "text": "No coding, no algorithm, nothing. It's a common sense question. This happens in real life too. Merge interval is such a DSA pattern which is very close to real life. Whatever you do in real life, you do it here too. Let's go. Come. 2, 9, and 6. Okay? And what is the end time? 4, 12, and 10. Do the same thing. As a hotel owner, you don't have any room. No room. Okay. What will be the first event of the day? 2. What does 2 say? Because this is the start part. This is the start."
+      },
+      {
+        "video_id": "wKao8Ttesqk",
+        "title": "Most Teachers Skip This Problem Because It is HARD | DP Series Episode 15",
+        "start": 1076.08,
+        "score": 0.48938692,
+        "text": "j is equal to 3 pe cut lagay honge na, tabhi aap idhar aay honge, tabhi aap idhar aay honge. Iska length kaise nikalajayega? Iswale bhaag ka kya length hai? Iswale bhaag ka kya length hai? Iswale bhaag ka length simple simple hai. Aap agar yaha pe hai, j is equal to 2 pe, j plus 1 ke cut pe jo bhi value likha hua hai, kya likha hua hai? 7 likha hua hai. 7 minus 0, 7 minus 0."
+      }
+    ]
+  },
+  {
+    "question": "linked list me cycle ka start kaise nikale",
+    "status": "FAIL",
+    "reason": "Expected video/timestamp not found in top 5",
+    "answer": "I don't know based on the provided JSON transcripts.",
+    "retrieved": [
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 942.78,
+        "score": 0.5554771,
+        "text": "Isko bhi apne list me likh lijiye"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1757.38,
+        "score": 0.49108225,
+        "text": "nikal liye, ek baar aap answer nikal liye"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1739.8,
+        "score": 0.48900387,
+        "text": "three kaise nika liye ga dp of three ke liye kya do cheeze chahiye dp of three ke liye chahiye uska"
+      },
+      {
+        "video_id": "jDP1NkjVjWQ",
+        "title": "DSA PATTERNS Episode 18 | Linked List Slow–Fast Pointer: Important Questions",
+        "start": 55.18,
+        "score": 0.4807301,
+        "text": "It is a very common question and it will not be done only with ratna. You will have to explain it in the interview that if we are doing this then why are we doing this? This is not ratna. Come, let's understand it. What does it mean? What is the meaning of the other one? It tells you that such a linked list has been given to you. Okay? No matter how big the linked list is, how big the cycle or node is, it does not matter. No linked list has been given. Okay? Okay. Come, let's make a cycle linked list. Which looks like this. Straight and a dented one."
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1745.0,
+        "score": 0.4708466,
+        "text": "ek previous uska ek previous jo ki up dp of two ko hona padega aur uska previous ka previous jo ki"
+      }
+    ]
+  },
+  {
+    "question": "slow fast pointer kaise kaam karta hai",
+    "status": "PASS",
+    "reason": "Expected video and timestamp found",
+    "answer": "**Answer**\n\nSlow‑fast pointer (also called Floyd’s cycle‑detection algorithm) works as follows:\n\n1. **Two pointers are started at the same node** – a *slow* pointer and a *fast* pointer.  \n2. **Movement per iteration**  \n   * The **slow** pointer moves **one step** forward.  \n   * The **fast** pointer moves **two steps** forward.  \n3. **Checking for a cycle**  \n   * If at any time the **slow pointer becomes equal to the fast pointer**, the list (or graph) contains a **cycle** – the two pointers have met inside the loop.  \n   * If the fast pointer reaches the end of the structure (i.e., a `null`/`None` reference), the structure is **acyclic** because the fast pointer never meets the slow one.\n\nThis idea is explained in the video **“DSA PATTERNS Episode 17 | Linked List Slow & Fast Pointer Technique: Introduction”** at **17:10 – 17:39**:\n\n- “Mil gaya matlab cycle hai… Slow and fast… Kabhi bhi slow is equal to fast ho gaya… To matlab? Uska cycle hai.”  \n\n**Video details**  \n- **Title:** DSA PATTERNS Episode 17 | Linked List Slow & Fast Pointer Technique: Introduction  \n- **Timestamp:** 17:10–17:39  \n- **URL:** https://www.youtube.com/watch?v=IxxlDYwMrZ8&t=1030s  \n\nSo, the slow‑fast pointer technique detects a cycle by moving at different speeds and checking for a meeting point.",
+    "retrieved": [
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 874.14,
+        "score": 0.5803027,
+        "text": "kaunsa dp ka slot bharaja raha hai"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 961.84,
+        "score": 0.5473058,
+        "text": "Kahan pe aapko mila hai"
+      },
+      {
+        "video_id": "WR-hWofGb_U",
+        "title": "Graph Representation: Adjacency Matrix vs Adjacency List – Which is Better?",
+        "start": 1452.98,
+        "score": 0.54361534,
+        "text": "Input hai, ye sab aapka input hai. Aapko isko graph ke form me yato data structure me store karwana hai, yato kuch aur karwana hai. Acha. Ab, data structure me store karwane ke liye, sabse pehla kaam, jo hum pehle lecture me bata chuke hai, aap ek 2D matrix bana sakte hai. Kya bana sakte hai? 2D matrix bana sakte hai. Lekin woh nahi banana hai, bata dete hai. Bata dete hai. Aisa nahi hona chahi ki aata hi nahi hai. Aap ek 2D matrix bana sakte hai. Jaisa ki hum first lecture me kaisa dekhe the, ki jitne user the,"
+      },
+      {
+        "video_id": "IxxlDYwMrZ8",
+        "title": "DSA PATTERNS Episode 17 | Linked List Slow & Fast Pointer Technique: Introduction",
+        "start": 1030.14,
+        "score": 0.5429843,
+        "text": "Mil gaya matlab cycle hai. Mil gaya matlab? Mil gaya matlab? Slow and fast. Ek ho gaya. Ek he note pe aapko dikh raha hai. Kabhi bhi slow is equal to fast ho gaya. To matlab? Uska cycle hai. Ground circular hoga. Tabhi yeh mil sakta hai. Pehle dekh chuke hain. Pehle samajh chuke hain. Ground agar road hota. Ground agar straight road hota na. To kabhi nahi milta. O fast road se bahar nikal jata. Etni baat. Mere khayal se samajh mein aayi hogi. Yehi concept hota hai. Kya concept hota hai?"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1775.24,
+        "score": 0.53175116,
+        "text": "karne bhi, dp of 0 ke betha hua hai."
+      }
+    ]
+  },
+  {
+    "question": "linked list ko k group me reverse kaise kare",
+    "status": "PASS",
+    "reason": "Expected video and timestamp found",
+    "answer": "**Answer (in Hindi)**  \n“K‑group में linked list को reverse करने के लिए आप सूची को लगातार k नोड्स के समूहों में बाँटते हैं और प्रत्येक समूह को उल्टा (reverse) कर देते हैं। यदि अंत में k से कम नोड बचते हैं, तो उन्हें जैसा है वैसा ही छोड़ देते हैं। उदाहरण के तौर पर, यदि k = 3 और सूची 1 → 2 → 3 → 4 → 5 → 6 है, तो समूह (1,2,3) और (4,5,6) को उल्टा करके परिणाम 3 → 2 → 1 → 6 → 5 → 4 मिलता है।  \n\n**Reference**  \n- Video title: *Best Explanation on Reverse LinkList Nodes in K Group | DSA Patterns CPP JAVA Python*  \n- Timestamp: **47:12–47:41**  \n- YouTube URL: <https://www.youtube.com/watch?v=BdpT6_jotcM&t=2832s>  \n\n(If you need the exact code implementation, the video walks through it step‑by‑step.)",
+    "retrieved": [
+      {
+        "video_id": "5IV8CgWnf04",
+        "title": "Rotate A Linked List | Master DSA in 2026 With DSA Patterns",
+        "start": 55.23,
+        "score": 0.558498,
+        "text": "Let's go. So, what does the question tell you? The question doesn't tell you anything. The question tells you that you have a linked list. Okay? It's an obvious thing that if there is a reverse linked list, then you will have to have a linked list. Your question says that this is it. Make one more. Let's go. Along with this linked list, you are given a k is equal to 2. What does this k mean? You have to rotate this linked list to the right. How? You have to rotate it. What does rotating mean?"
+      },
+      {
+        "video_id": "BdpT6_jotcM",
+        "title": "Best Explanation on Reverse LinkList Nodes in K Group | DSA Patterns CPP JAVA Python",
+        "start": 57.17,
+        "score": 0.55377084,
+        "text": "We are going to show you by coding because we think that in this video, in this question, or in this way, it will be beneficial for you to see the code. So stay connected, come with us. Now, before doing the group of reverse nodes in K, we want to ask you one more question. The name of that question is swap nodes in pairs. What is its name? Swap nodes in pairs. So we want to ask you this question before that. Why do we want to ask? We will tell you, let's see what it means."
+      },
+      {
+        "video_id": "BdpT6_jotcM",
+        "title": "Best Explanation on Reverse LinkList Nodes in K Group | DSA Patterns CPP JAVA Python",
+        "start": 0.0,
+        "score": 0.53472733,
+        "text": "Today's question is a highly requested question. Reverse nodes in K-group in a linked list. This is a hard question on Leetcode. Personally, this is a very close question to my heart because I had an interview in Arista a year ago. In 35 plus LPA, it was asked the same question that make reverse nodes in K-group. We could not make it and after that we were very sad. And before teaching this, we have not only read it ourselves, we have seen the entire video. We saw this question of Stryverji, we saw this question of pepcoding, we saw this question of lovebubber. We felt that everywhere it was told that how to solve this question."
+      },
+      {
+        "video_id": "7gOCx1vbx0k",
+        "title": "Linked List Reversal In the Easiest Way Possible | DSA Patterns Course 2026 CPP JAVA Python",
+        "start": 1366.06,
+        "score": 0.5216255,
+        "text": "reverse means you have reversed two nodes and if someone ask you to return its head then you return this one because prebha is sitting here so you do it here so the rest of the linked list is broken but you have reversed two nodes so you can reverse number of times you can reverse till where you want"
+      },
+      {
+        "video_id": "BdpT6_jotcM",
+        "title": "Best Explanation on Reverse LinkList Nodes in K Group | DSA Patterns CPP JAVA Python",
+        "start": 2832.1,
+        "score": 0.50020456,
+        "text": "So why was it so easy? Because it was so easy. Now come. Now you are ready to win this question. Reverse in K group. What does the question say? Suppose K has 3 values. So make a group of 3. Make a group of 3. Leave the last one. Reverse every group. Reverse every group. 3, 2, 1, 6, 5."
+      }
+    ]
+  },
+  {
+    "question": "stack me next greater element kaise nikale",
+    "status": "PASS",
+    "reason": "Expected video and timestamp found",
+    "answer": "**Stack से Next Greater Element निकालने का तरीका**\n\n1. **एक खाली स्टैक बनाइए** – इसमें आप उन एरे के इंडेक्स या वैल्यू को रखेंगे जो अभी तक उनका “next greater” नहीं पा पाए हैं.  \n2. **एरे को बाएँ से दाएँ (या दाएँ से बाएँ) एक‑एक करके पढ़िए**।  \n3. **वर्तमान एलिमेंट (curr) के लिए**  \n   - जबकि स्टैक ख़ाली नहीं है **और** स्टैक के टॉप पर मौजूद एलिमेंट `curr` से **छोटा** है, तो टॉप को पॉप कर दें। पॉप किया गया एलिमेंट अब `curr` को अपना **next greater element** ले लेता है।  \n   - यदि स्टैक ख़ाली हो गया या टॉप का एलिमेंट `curr` से बड़ा/बराबर है, तो `curr` का अपना next greater अभी नहीं मिला – इसे स्टैक में **पुश** कर दें।  \n4. **अंत में** जो भी एलिमेंट स्टैक में बचते हैं, उनका next greater नहीं मिला, इसलिए उनका उत्तर `-1` रहेगा।  \n\n> “...whether any element needs a next greater, then the element pops all the small ones and takes the top one.” – *Master Stack DSA Pattern With 3 Questions* (30:40‑30:57)【mMKZmo3iyyM.json】  \n> “If this stack is empty then res[i] = -1 … else … some top would have come bigger than this … push this element … return res.” – *Next Greater Element | Stack and Queue DSA Pattern 2025* (28:20‑28:49)【gFqOIPfAEjw.json】\n\n**सारांश**  \n- स्टैक में हमेशा **घटते क्रम** (decreasing) में एलिमेंट रखें।  \n- नया बड़ा एलिमेंट मिलने पर छोटे वाले को पॉप करके उनका उत्तर सेट कर दें।  \n- अंत में बचा हुआ स्टैक `-1` देता है।\n\n**वीडियो संदर्भ**  \n- *Master Stack DSA Pattern With 3 Questions* – 30:40‑30:57 – https://www.youtube.com/watch?v=mMKZmo3iyyM&t=1840s  \n- *Next Greater Element | Stack and Queue DSA Pattern 2025* – 28:20‑28:49 – https://www.youtube.com/watch?v=gFqOIPfAEjw&t=1700s  ",
+    "retrieved": [
+      {
+        "video_id": "mMKZmo3iyyM",
+        "title": "Master Stack DSA Pattern With 3 Questions | DSA Patterns Course",
+        "start": 1840.48,
+        "score": 0.5243023,
+        "text": "In the future, whatever your calculation is, whether any element needs a next greater, then the element pops all the small ones and takes the top one. So see, it just fills the rest of the elements in your stack in some way. So that you don't miss any element in the future."
+      },
+      {
+        "video_id": "Zr2z8DD6TuQ",
+        "title": "Definitely Better Than Striver.. Two Sum in Binary search Tree!",
+        "start": 2893.49,
+        "score": 0.49191564,
+        "text": "First of all, you have to run both ascending and descending stack together. You have to maintain both together. Depending on what you want, you can decide that from your mind. So see what we will do. See what we will do. We will not do anything. That means the whole code is done. The whole code is here. We will make it a function and write it so that it is easy for you. And in today's comments, you will also get the whole code. Don't worry about it. First of all, what will we do? See. The first thing is to make both the stack."
+      },
+      {
+        "video_id": "gFqOIPfAEjw",
+        "title": "Next Greater Element | Stack and Queue DSA Pattern 2025",
+        "start": 1700.08,
+        "score": 0.48452407,
+        "text": "We would have stopped at such a top which is bigger than this. So just write your answer. That if. St. Empty. That if this stack is empty. Then res i. Is equal to minus 1. Nothing is left. Else. Else. Else. Something is left. Res i is equal to. Some top would have come bigger than this. So we have written this in our answer. And. While going. St. Push. This element. Array of i. And go here. Return. Res. That's it."
+      },
+      {
+        "video_id": "XpHIIQwVxvI",
+        "title": "Revise Stack Data Structure in 10 Minutes | DSA Patterns Course",
+        "start": 578.78,
+        "score": 0.48412377,
+        "text": "next greater element, or next smaller element, or previous greater element, or previous smaller element, all these. Now, why stack was used in these? Why is this stack's most important concept? Because it is also doing the same thing. See, when we talk about previous greater element. So, suppose when you are standing on array of 4. So, logically, you have to find previous greater element, so that you get the first one."
+      },
+      {
+        "video_id": "gFqOIPfAEjw",
+        "title": "Next Greater Element | Stack and Queue DSA Pattern 2025",
+        "start": 1842.54,
+        "score": 0.4833899,
+        "text": "What do you want? Next smaller. What did you want above? Okay, let's go. You want next smaller. So, you want smaller. So, whichever is either greatest or equal to you, remove them. If your stack gets empty, then your answer will be minus 1. And while going, push it. So, nothing else. We are running the loop upside down. What? We are running the loop upside down. Hey, whether it is next smaller or previous smaller, what is to be done in that? Previous means back, next means forward. Rotate it like this. If you do something like this, it will be done."
+      }
+    ]
+  },
+  {
+    "question": "hashmap kab use karna chahiye",
+    "status": "FAIL",
+    "reason": "Expected video/timestamp not found in top 5",
+    "answer": "**When to use a HashMap**\n\n- Use a HashMap when you need **constant‑time (≈ O(1)) look‑ups or insertions** for checking whether a value is present or for mapping one key to another.  \n  - In the *Word Ladder* video the speaker stores words that have already been visited in a HashMap, then checks the map to decide whether to push a word into the BFS queue and removes it afterward. This shows a typical use‑case: **tracking visited items quickly**.【HpsjPUwQHfw.json, 23:44–24:10, https://www.youtube.com/watch?v=HpsjPUwQHfw&t=1424s】\n\n- However, the speaker in *The Only Video You Need TO Master HASHMAPS* warns not to reach for a HashMap when you don’t actually need its special capabilities. He says you “shouldn’t just use the HashMap” unless there’s a clear reason for it.【9a4A6CbrLCo.json, 12:31–12:51, https://www.youtube.com/watch?v=9a4A6CbrLCo&t=751s】\n\n**Summary**\n\n- **Use a HashMap** for fast presence checks or key‑value mapping (e.g., tracking visited nodes in graph/BFS problems).  \n- **Avoid using it** when you don’t need those O(1) look‑ups; otherwise it adds unnecessary complexity.",
+    "retrieved": [
+      {
+        "video_id": "9a4A6CbrLCo",
+        "title": "The Only Video You Need TO Master HASHMAPS | DSA Patterns Course Cpp JAVA Python",
+        "start": 751.87,
+        "score": 0.52641106,
+        "text": "You don't have any other power in the HashMap. You can't take any other work from the HashMap. For example, sometimes you will feel like using the HashMap. No, no, no, don't do it. For example,"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1763.48,
+        "score": 0.5260315,
+        "text": "ko thoda change karna padega."
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1671.14,
+        "score": 0.5091285,
+        "text": "aap dp of 0 me rakhna chaate the na"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1775.24,
+        "score": 0.49726707,
+        "text": "karne bhi, dp of 0 ke betha hua hai."
+      },
+      {
+        "video_id": "HpsjPUwQHfw",
+        "title": "Word Ladder Explained Like a Pro! DSA Patterns Graph Series",
+        "start": 1424.62,
+        "score": 0.4834131,
+        "text": "If you have S in your hash map, that means if you have BB in your hash map, then what should you do? Push it in the queue. Push it in the queue. With S. And with whom? With value plus 1. With plus 1. And now erase it from the hash map. Now erase it from the hash map. It's done. Now close your J loop. What did you do now? What did you do now?"
+      }
+    ]
+  },
+  {
+    "question": "adjacency list aur adjacency matrix me kya difference hai",
+    "status": "FAIL",
+    "reason": "Expected video/timestamp not found in top 5",
+    "answer": "**Difference between an adjacency list and an adjacency matrix**\n\n| Feature | Adjacency Matrix | Adjacency List |\n|---------|------------------|----------------|\n| **Structure** | A 2‑D array (size V × V) where `matrix[i][j] = 1` if there is an edge *i → j*, otherwise `0`. | An array (or vector) of size V where each entry holds a list (or vector) of the neighboring vertices. |\n| **Space complexity** | Takes **O(V²)** space regardless of how many edges there are. The video calls it “a very useless method” because even a tiny graph (4 vertices, 5 edges) needs a 16‑cell matrix.【27:53‑28:23】 | Takes **O(V + E)** space – only the actual edges are stored. The code is shown as a “vector of vector of int” named `adj`.【28:23‑28:52】 |\n| **When it’s useful** | Good for **dense** graphs where most possible edges exist; allows O(1) edge‑existence checks. | Good for **sparse** graphs (most real‑world problems); iterating over neighbors is fast and memory is saved. |\n| **Edge lookup** | O(1) – just read `matrix[i][j]`. | O(degree of i) – you must scan the list of neighbors of vertex i. |\n| **Visualization** | Looks like a full grid of 0/1 values. | Looks like a list of lists: e.g., “0 → 1, 2; 1 → 0, 2, 3, 3; …”.【36:51‑37:18】 |\n\n**Sources**  \n- *Graph Representation: Adjacency Matrix vs Adjacency List – Which is Better?* (27:53‑28:23) – explains why the matrix wastes space.  \n- Same video (28:23‑28:52) – shows the adjacency‑list implementation (`vector<vector<int>> adj`).  \n- Same video (36:51‑37:18) – visual example of an adjacency list.\n\n**Video link**: https://www.youtube.com/watch?v=WR-hWofGb_U (see timestamps above).",
+    "retrieved": [
+      {
+        "video_id": "WR-hWofGb_U",
+        "title": "Graph Representation: Adjacency Matrix vs Adjacency List – Which is Better?",
+        "start": 1703.26,
+        "score": 0.67068267,
+        "text": "List. Adjacency list. See this. What is adjacency? List. Yes. Adjacency list. How does adjacency list look? This too is the same. Vector of vector of int. Vector of vector of int. So this too will look like this. Vector of vector of int. Its name will be adj. And how many size matrix will this be? This will be m size vector. It will be a big vector. Means it will become a big vector."
+      },
+      {
+        "video_id": "WR-hWofGb_U",
+        "title": "Graph Representation: Adjacency Matrix vs Adjacency List – Which is Better?",
+        "start": 1673.58,
+        "score": 0.64819187,
+        "text": "Adjacency matrix is a very useless method. Adjacency matrix doesn't work in the interview. Why? I have told you last time, it takes a lot of space. I mean, you just, you just see, you just have 4 vertex and 5 edge. It was such a small graph, for that you are sitting with a matrix of 16 size and doing useless work here and there. Now, what will we do? Now, what will we do? Watch very carefully. See this code. Now, what will we do? Watch. Now, we are going to make something which is called adjacency. Adjacency."
+      },
+      {
+        "video_id": "WR-hWofGb_U",
+        "title": "Graph Representation: Adjacency Matrix vs Adjacency List – Which is Better?",
+        "start": 1966.62,
+        "score": 0.62759334,
+        "text": "1,2 means we will push 2 in adj1 and 1 in adj2. 1,2 is done. 1,3 we will push 3 in adj1 and 1 in adj3. 2,3 we will push 3 in adj2 and 2 in adj3. This is done. What is this? Adjacency list."
+      },
+      {
+        "video_id": "WR-hWofGb_U",
+        "title": "Graph Representation: Adjacency Matrix vs Adjacency List – Which is Better?",
+        "start": 2211.23,
+        "score": 0.61876756,
+        "text": "Adjacency list, not matrix, it looks like a list. If you visualize it, then it will look something like this. It also looks like this, that if you go to 0, then you are getting 1 and 2, because 0 is connected to 1 and 2. If you go to 1, you are getting 0, 2, 3, 3. If you go to 2, you are getting 0, 1, 3, 3. If you go to 3, you are getting 1 and 2, both. So what is this? Adjacency list. Okay, this was undirected. If it was directed, then?"
+      },
+      {
+        "video_id": "O04KAy7cLBs",
+        "title": "Master DFS/BFS in Graphs | Graph series DSA Patterns",
+        "start": 211.63,
+        "score": 0.6148473,
+        "text": "Hello friends, welcome to my channel. If you are watching this video for the first time, please check the description. At least you should watch the graph series from the beginning. There are two videos from the beginning. If you watch them, you will understand more. This is my hope from you. In today's lecture, we have learned what is a graph, what is a general idea, and how to make a graph, i.e. whether it is made in adjacency matrix or in adjacency list. And we have told you that in 90% of questions,"
+      }
+    ]
+  },
+  {
+    "question": "bfs aur dfs me kya difference hai",
+    "status": "FAIL",
+    "reason": "Expected video/timestamp not found in top 5",
+    "answer": "**Difference between BFS and DFS**\n\n- **BFS (Breadth‑First Search)** – explores the graph level by level, visiting all neighbours of a node before moving to the next level.  \n- **DFS (Depth‑First Search)** – goes deep along one branch as far as possible before back‑tracking and exploring other branches.\n\nThe video explains it with an example: in DFS you keep following connections (e.g., “you saw Deepika from Pratyusha, then Ranveer from Deepika, then Ronaldo from Ranveer…”) until you’ve gone as deep as you can, whereas BFS would visit all immediate connections first before going deeper.\n\n**Source**  \n- *Video title:* **Master DFS/BFS in Graphs \\| Graph series DSA Patterns**  \n- *Timestamp:* **32:23–32:52**  \n- *YouTube URL:* https://www.youtube.com/watch?v=O04KAy7cLBs&t=1943s",
+    "retrieved": [
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 855.96,
+        "score": 0.5684577,
+        "text": "ab dp of 2 me bhi likha ja chuka hai"
+      },
+      {
+        "video_id": "7gOCx1vbx0k",
+        "title": "Linked List Reversal In the Easiest Way Possible | DSA Patterns Course 2026 CPP JAVA Python",
+        "start": 1929.01,
+        "score": 0.50489175,
+        "text": "Before before matlab jis node ke pehle tak reverse nahi hua hai uske baad reverse shuru hua hai before dot next is equal to kya 40 40 kaha hai prev prev yeh hogaya yeh ban jayega baaki same hai aur aur aur 20 20 20 20 20 kaunsa node hai 20 kaunsa 20 toh kahi hai nahi abhi tak toh 20 kahi bhi nahi hai lekin 20 ka jo jana chahiye woh kaha pe jana chahiye 20 ka jo"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 874.14,
+        "score": 0.50052094,
+        "text": "kaunsa dp ka slot bharaja raha hai"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1680.88,
+        "score": 0.49550277,
+        "text": "ab dekhiye am kya khel karte hain"
+      },
+      {
+        "video_id": "O04KAy7cLBs",
+        "title": "Master DFS/BFS in Graphs | Graph series DSA Patterns",
+        "start": 1943.41,
+        "score": 0.4930691,
+        "text": "Now, let's come to BFS. That was DFS. D for Dog. This is B for Banana. BFS. What is its name? Breadth First Search. What was that? Depth First Search. This is Breadth First. This is a little different. This is a little different. How is it different? Let me tell you. See. Take the same example of Instagram. On whose profile did you go? On my profile. What did you do in DFS? You saw Deepika from Pratyusha. You saw Ranveer from Deepika. You saw Ronaldo from Ranveer. You kept going until everything was over. Okay. We will not do this in this."
+      }
+    ]
+  },
+  {
+    "question": "topological sort kaise karte hain",
+    "status": "PASS",
+    "reason": "Expected video and timestamp found",
+    "answer": "Topological sort को करने के लिए **Kahn’s algorithm** का प्रयोग किया जाता है। यह एल्गोरिद्म तब काम करता है जब आपका ग्राफ **directed‑acyclic graph (DAG)** हो – यानी दिशा‑युक्त और बिना साइकिल वाला ग्राफ।  \n\n- वीडियो शीर्षक: *No one has explained Topological sort like This!*  \n- टाइम‑स्टैम्प: 21:09 – 21:37  \n- YouTube URL: https://www.youtube.com/watch?v=OSYgRvaWFSI&t=1269s  \n\nइस भाग में बताया गया है कि “Laptop was bought… So logically, this is called… Topological sort… Kahn’s algorithm.” इसलिए, टोपोलॉजिकल सॉर्ट करने के लिए Kahn’s algorithm को याद रखें और सुनिश्चित करें कि ग्राफ DAG हो।  \n\n(यदि आप इंटरव्यू में पूछे जाएँ तो Kahn’s algorithm के बारे में जानना अपेक्षित है।)",
+    "retrieved": [
+      {
+        "video_id": "OSYgRvaWFSI",
+        "title": "No one has explained Topological sort like This!",
+        "start": 1269.41,
+        "score": 0.55249,
+        "text": "Laptop was bought, Internet was set up, VSCode was downloaded, C++ was installed in VSCode. So logically, this is called, what is it called? Topological sort. And the logical thing that we have just explained to you in Hindi, what is it called? Kahn's algorithm. What is it called? Kahn's algorithm. Kahn's algorithm. Okay? Kahn's algorithm is the name of this thing. Okay? How will we write its code? We will write its code and show you. Let's go. We will write its code and show you."
+      },
+      {
+        "video_id": "OSYgRvaWFSI",
+        "title": "No one has explained Topological sort like This!",
+        "start": 1932.42,
+        "score": 0.54769665,
+        "text": "The DFS one is very easy. We will tell you in some other lecture. But if you have been asked about topological sort in any interview, then you will be asked about the Kahn's algorithm. It is expected that you should know the Kahn's algorithm. So do it. We will do some questions about topological sort. We will tell you how to identify its question. It will not always come that you should do topological sort. No. You will be given a story. You will have to find out that it is topological sort. According to me, the best sign of topological sort is that it will be a DAG."
+      },
+      {
+        "video_id": "OSYgRvaWFSI",
+        "title": "No one has explained Topological sort like This!",
+        "start": 713.55,
+        "score": 0.5172787,
+        "text": "B is waiting for this. This is waiting for this. This is waiting for this. So everyone will keep waiting. No one will be able to start the work. That is why it is said that whenever you want to make a topological sort or dependency, what kind of graph should you have? Directed. Obviously, it should be directed. But acyclic graph. If there is a cycle in that graph, you will not be able to do it."
+      },
+      {
+        "video_id": "CDo0V5Jbb2o",
+        "title": "Introduction to Binary Search Tree! Don't Miss",
+        "start": 1076.85,
+        "score": 0.5004384,
+        "text": "Node right and K. Yes. And return. Khatam. Khatam. Khatam. Yeh program. Dekhiye. Isme kabhi bhi ham log dono me nahi ja rahe hain. Upar wale code me kaha jaate the. Dono me. Left right dono me. Yeh linear search tha. Yeh to aisa tha ki unsorted array me search kar rahe hain. To kya karoge. Pura array search karo bhai. Aur kya kar sakte. Lekin. Yeh ek sorted array ki tarah behave karta hai. Ek iske tarah behave karta hai. Ek sorted array ki tarah. Batahin ki kaise behave karta hai. To isme ham log kya karene. Har baar. Ya to left ya to right. Ya to left ya to right. Order of."
+      },
+      {
+        "video_id": "5PrzZfhk1OQ",
+        "title": "The BST Validation Problem Everyone Gets Wrong",
+        "start": 551.04,
+        "score": 0.49956238,
+        "text": "Chota hai. Ye chota hai. Kisse? Apne previous wale se. Apne previous wale se. Apne previous wale node se. Previous ka kya matlab hai? Ki in order me. In order me. In order me. In order me. Is root ke. Pahle kaunsa root visit hua tha? Agar ye usse chota ya equal to b hai. Equal to b hai. To aap directly ek answer me false kar sakte hai. Phir sir batara hai."
+      }
+    ]
+  },
+  {
+    "question": "dijkstra algorithm kaise kaam karta hai",
+    "status": "FAIL",
+    "reason": "Expected video/timestamp not found in top 5",
+    "answer": "**Dijkstra algorithm** एक *single‑source shortest‑path* एल्गोरिद्म है।  \nयह स्रोत नोड से सभी अन्य नोड तक सबसे छोटा मार्ग निकालता है। काम करने का तरीका संक्षेप में इस प्रकार है:\n\n1. **आरम्भ** – स्रोत नोड की दूरी 0 से सेट करें, और बाकी सभी नोड की दूरी ∞ (असीम) से।  \n2. **सबसे छोटा नोड चुनें** – वर्तमान में सबसे छोटी दूरी वाले नोड को प्राथमिकता क्यू (हीप) से निकालें। (ट्रांसक्रिप्ट में “code and heap” का जिक्र है — 27:10‑27:38)  \n3. **रिलैक्सेशन** – उस नोड के सभी सन्निकट नोड (एज) के लिए जाँचें कि क्या उनकी दूरी वर्तमान दूरी + एज वेट से कम हो सकती है। यदि है, तो दूरी अपडेट करें।  \n4. **दोहराएँ** – सभी नोड प्रोसेस हो जाने तक स्टेप 2‑3 दोहराएँ।  \n\nजब यह प्रक्रिया समाप्त हो जाती है, तो प्रत्येक नोड की संग्रहीत दूरी स्रोत से उस तक सबसे छोटा मार्ग होती है।  \n\nयह वही सिद्धांत है जिसका उपयोग Google Maps जैसे एप्लिकेशन में भारत के शहरों (जैसे Ranchi, Patna, Bangalore, Delhi, Kolkata) के बीच सभी सड़क (एज) को ध्यान में रखते हुए सबसे छोटा रूट निकालने के लिए किया जाता है (06:22‑06:43)।\n\n**स्रोत:**  \n- *No one Has Explained Dijkstra's Algorithm Like This On The Internet!* – 06:22‑06:43 [https://www.youtube.com/watch?v=93copdtW4ZQ&t=382s]  \n- *No one Has Explained Dijkstra's Algorithm Like This On The Internet!* – 27:10‑27:38 [https://www.youtube.com/watch?v=93copdtW4ZQ&t=1630s]  ",
+    "retrieved": [
+      {
+        "video_id": "93copdtW4ZQ",
+        "title": "No one Has Explained Dijkstra's Algorithm Like This On The Internet!",
+        "start": 0.0,
+        "score": 0.7426942,
+        "text": "Welcome to Pratyush with Pratyush. My name is Pratyush Narayan. Today's topic is very controversial. We will learn the Dijkstra algorithm from the beginning to the end. But before teaching, let me tell you a few things very quickly. First, this is a little hard topic in the graph. It is not hard. It is hard because it is a different algorithm. So if you do not know the algorithm, you will not be able to make a question of it. That is true."
+      },
+      {
+        "video_id": "93copdtW4ZQ",
+        "title": "No one Has Explained Dijkstra's Algorithm Like This On The Internet!",
+        "start": 1630.43,
+        "score": 0.6831751,
+        "text": "Delhi to Kolkata. The whole distance is set and this is your final answer. This algorithm is called Dijkstra algorithm in Hindi. What is this algorithm called? Dijkstra algorithm. Now let's move ahead. Code and heap and fee, whatever it is, now let's move on to that. If we had told that earlier, then you would have taken a rut, it would not have been useful. Now you have an understanding of what to do. Let's move ahead."
+      },
+      {
+        "video_id": "Mb01XUSuLjE",
+        "title": "2 Of The Most Important Questions in Dijkstra's Algorithm | Graph series DSA Patterns 2026",
+        "start": 762.93,
+        "score": 0.66782695,
+        "text": "You are given the source 2. Means you are starting from 2. What will you do? See. And we will write the weight. It has 1. It has 1. It has 1. See. First of all when you will start from 2. So how much time will it take to go to 1? 1 unit. To go to 3? 1 unit. To go from 3 to 4? 2 unit. 2 unit. When Dijkstra will make you an array. When Dijkstra will make you an array. Then it will look something like this. See."
+      },
+      {
+        "video_id": "93copdtW4ZQ",
+        "title": "No one Has Explained Dijkstra's Algorithm Like This On The Internet!",
+        "start": 382.64,
+        "score": 0.65042734,
+        "text": "Now we told you that Dijkstra is the shortest path to every node from a single source. Assume that you are an engineer in Google Maps. You have this map of India. Which five cities of India have you connected to? Ranchi, Patna, Bangalore, Delhi, Kolkata. Now I have also told you about the roads. These edges are direct roads."
+      },
+      {
+        "video_id": "Gq81OeJNTwI",
+        "title": "Graph Leetcode Hard Question Explained Like Crazy! Swim in Rising Water Leetcode",
+        "start": 1906.7,
+        "score": 0.6409075,
+        "text": "So, you push this in your PQ and also update your result. What should you update? Array of 0 and 0. Is it right? Start your Dijkstra. How do we start Dijkstra? While pq.notempty. We are not writing anything new in the code. You are doing the same thing as you wrote in episode 12. You are writing the same code and thinking the same thing. First of all, remove this which you have entered. Pair of"
+      }
+    ]
+  },
+  {
+    "question": "bellman ford kab use karte hain",
+    "status": "PASS",
+    "reason": "Expected video and timestamp found",
+    "answer": "Bellman‑Ford को उस ग्राफ़ पर लगाते हैं जिसमें निगेटिव वेट एज हो सकते हैं और हमें निगेटिव साइकल का पता लगाना होता है।  \nयदि कई बार रिलैक्सेशन के बाद भी कोई सही पाथ न मिले या ग्राफ़ में निगेटिव साइकल हो तो एल्गोरिद्म `-1` रिटर्न करता है – यही Bellman‑Ford का व्यवहार है।\n\n**Source**  \n- *Video title:* **We Crossed 50K! Let's Study Bellman-Ford NOW**  \n- *Timestamp:* **28:34 – 29:01**  \n- *YouTube URL:* https://www.youtube.com/watch?v=A3sZWwalzz4&t=1714s",
+    "retrieved": [
+      {
+        "video_id": "A3sZWwalzz4",
+        "title": "We Crossed 50K! Let's Study Bellman-Ford NOW",
+        "start": 1714.0,
+        "score": 0.54630697,
+        "text": "testing karne ke liye ek aur baar karo, ek aur baar karo. Agar us ek aur baar me koi sahi answer nahi, koi acha answer nahi mila, koi update nahi hua, very good, return kar do. Agar us nth baar me, agar aapko pata chalene lagta hai ki nahi, abhi bhi chota answer mil raha hai kisi ka to, wo graph ekdum gone case hai, bekaar graph, negative case ka graph hai, usme minus one return kar do. Yeh hota hai Bellman-Ford. Thik hai. Toh umeet karte hai ki aapko samajh me aaya hoga, bahut acche se."
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 961.84,
+        "score": 0.5333611,
+        "text": "Kahan pe aapko mila hai"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1680.88,
+        "score": 0.50336814,
+        "text": "ab dekhiye am kya khel karte hain"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1775.24,
+        "score": 0.50153595,
+        "text": "karne bhi, dp of 0 ke betha hua hai."
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 866.96,
+        "score": 0.4981438,
+        "text": "kya hai"
+      }
+    ]
+  },
+  {
+    "question": "number of islands kaise solve kare",
+    "status": "FAIL",
+    "reason": "Expected video/timestamp not found in top 5",
+    "answer": "**Solution Overview (from the video)**  \n\n- The grid contains **land = 1** and **water = 0**.  \n- Two land cells belong to the same island only if they are **adjacent vertically or horizontally** (up, down, left, right). **Diagonal connections are NOT allowed**.  \n- To find the number of islands, repeatedly pick an un‑visited land cell, explore all land cells reachable from it using **DFS or BFS**, mark them as visited, and increase the island count by 1.  \n- Continue until every land cell has been visited; the total count is the answer.\n\n**Step‑by‑step (as described in the video)**  \n\n1. Scan the matrix row‑by‑row.  \n2. When you encounter a `1` that hasn’t been visited, start a DFS/BFS from that cell.  \n3. In the search, move only **up, down, left, right**; stop when you hit water (`0`) or the matrix border.  \n4. Mark every visited land cell (e.g., change it to a different character or keep a separate visited array).  \n5. After the search finishes, you have identified **one whole island** → increment the island counter.  \n6. Keep scanning the rest of the matrix for the next un‑visited `1` and repeat.  \n\n**Why diagonal isn’t counted** – The speaker shows an example where, if diagonal connections were allowed, the whole region would be a single island, but because only orthogonal moves are permitted the answer is **3 islands** (see 09:08‑09:36).\n\n**Reference from the transcript**  \n\n- “What is allowed for you? Up, down, left, right… There is water in its up.” – 07:12‑07:39  \n- “Because diagonal connection is not allowed… you have 3 types of islands.” – 09:08‑09:36  \n\n**Video details**  \n\n- **Title:** Most Asked Graphs Question in FAANG Interviews \\| Number of Islands Leetcode  \n- **Timestamp:** 07:12–07:39 and 09:08–09:36  \n- **YouTube URL:** https://www.youtube.com/watch?v=mbSYZzBjs4U  \n\nSo, to solve **Number of Islands**, perform a flood‑fill (DFS/BFS) using only the four cardinal directions and count how many separate flood‑fills you need.",
+    "retrieved": [
+      {
+        "video_id": "mbSYZzBjs4U",
+        "title": "Most Asked Graphs Question in FAANG Interviews | Number of Islands Leetcode",
+        "start": 432.91,
+        "score": 0.50569105,
+        "text": "So, your number of islands has become one. Now, let's look at the rest of the land. Basically, the question is that you have to make a part of any island for each land. And by doing this, you have to tell us the count of all the different islands that you will get. Look at this one. Is this one connected to any other one? Let's see. What is allowed for you? Up, down, left, right. Look. There is water in its up."
+      },
+      {
+        "video_id": "mbSYZzBjs4U",
+        "title": "Most Asked Graphs Question in FAANG Interviews | Number of Islands Leetcode",
+        "start": 576.72,
+        "score": 0.4716244,
+        "text": "So, I hope you understood the meaning of this question. Basically, you have to group one or one represents the land. You have to connect with each other and after doing this, you have to count all the different groups and islands. This is the meaning of this question."
+      },
+      {
+        "video_id": "mbSYZzBjs4U",
+        "title": "Most Asked Graphs Question in FAANG Interviews | Number of Islands Leetcode",
+        "start": 548.54,
+        "score": 0.464178,
+        "text": "Your answer is 3. Your answer is 3. There are 3 islands. Which 3 islands are there? One island is this. One island is this alone. And one is these two. Why did this happen? Because in the land connection, diagonal connection is not allowed. If diagonal connection is allowed, then these two are one connected and these two are one connected. What is your answer? Your answer is 1. This entire island would have been one. But because diagonal is not allowed, you have 3 types of islands."
+      },
+      {
+        "video_id": "mbSYZzBjs4U",
+        "title": "Most Asked Graphs Question in FAANG Interviews | Number of Islands Leetcode",
+        "start": 245.14,
+        "score": 0.4406337,
+        "text": "Water. It is not connected to the land. It is not connected to India. Sri Lanka. Sri Lanka is an island. It is a small island. There is a small island here. And all around it is water. So you have to find the number of islands like this. Now let's go ahead and see what to do and how to do it."
+      },
+      {
+        "video_id": "6ZtNHvGeEu4",
+        "title": "Easiest Graphs question Surrounded Regions | DSA Patterns 2026",
+        "start": 520.59,
+        "score": 0.43695235,
+        "text": "Normally, when we were studying the number of islands, we would maintain a visited array that we have seen this. Instead of that, what you should do is, make every zero a character of your choice. Hash, dollar, rupeeya, whatever you want. Whatever looks different, so that you know that it is saved. In the end, we have to save it and convert it back to zero. Do this. You have to do this with every boundary zero."
+      }
+    ]
+  },
+  {
+    "question": "heap se top k frequent elements kaise nikale",
+    "status": "FAIL",
+    "reason": "Expected video/timestamp not found in top 5",
+    "answer": "**Answer (in Hindi)**  \n\nTop‑K सबसे अधिक बार आने वाले तत्वों को निकालने के लिए **min‑heap** का उपयोग किया जाता है।\n\n1. **हर तत्व की आवृत्ति (frequency) गिनें** – एक hashmap या dictionary बनाकर प्रत्येक तत्व कितनी बार आया, उसका काउंट रखें।  \n2. **(frequency, element) को min‑heap में डालें** –  \n   * Heap का आकार **k** रखें।  \n   * जब heap का आकार k से बड़ा हो जाए, तो सबसे छोटी frequency वाला (root) आइटम निकाल दें।  \n3. अंत में heap में जो k आइटम बचेंगे, वही **top‑k सबसे अधिक बार आने वाले तत्व** हैं (क्योंकि छोटे‑छोटे frequencies को लगातार हटाया गया)।  \n\nइस तरह **frequency** को heap में रखा जाता है, न कि केवल तत्व को।  \n\n**स्रोत**  \n- वीडियो: *5 Step Template To Solve any HEAP Problem | DSA PATTERNS 2026*  \n  - टाइम‑स्टैम्प: **25:43–26:10**  \n  - URL: https://www.youtube.com/watch?v=ks8rocoXbJk&t=1543s  \n  - ट्रांसक्रिप्ट: “Top K frequent words… What did we use? **Minheap**.”  \n\n- अतिरिक्त संदर्भ: *Solve Any HEAP Question By This Template | Top K frequent Elements Leetcode*  \n  - टाइम‑स्टैम्प: **06:00–06:16**  \n  - URL: https://www.youtube.com/watch?v=5Net0Dd7NAA&t=360s  \n  - ट्रांसक्रिप्ट में बताया गया कि “Will it look like max heap? Or will it look like min heap? … What will we keep here?” (यह संकेत देता है कि हमें यह तय करना है कि कौन सा heap उपयोग करना है, और ऊपर के उदाहरण में min‑heap चुना गया है)।  \n\nइस प्रक्रिया से आप heap का उपयोग करके आसानी से **top‑k frequent elements** निकाल सकते हैं।  ",
+    "retrieved": [
+      {
+        "video_id": "5Net0Dd7NAA",
+        "title": "Solve Any HEAP Question By This Template | Top K frequent Elements Leetcode",
+        "start": 360.98,
+        "score": 0.58975554,
+        "text": "After looking at top k, we can understand that there will be heap here. But how will heap look like? Why? Will it look like max heap? Or will it look like min heap? And one more problem is that will we keep in heap? When we did kth largest element, then we kept number in heap. What will we keep here? Let's see what we will keep here."
+      },
+      {
+        "video_id": "ks8rocoXbJk",
+        "title": "5 Step Template To Solve any HEAP Problem | DSA PATTERNS 2026",
+        "start": 1543.02,
+        "score": 0.5675469,
+        "text": "It is smaller than many people. We do elimination by using heap. You can see this in every question. What did we see in the first question? Kth, largest. What did we use in this? Minheap. Very good. Kth, smallest. What did we use in the smallest element? Maxheap. Again, what did we see? Top K frequent words. Top K frequent. Top K means the most frequent. What did we use? Minheap."
+      },
+      {
+        "video_id": "I1-0ALAJxZI",
+        "title": "HEAP On Pairs Explained in One Shot | CPP JAVA PYTHON | DSA Patterns",
+        "start": 129.63,
+        "score": 0.56580204,
+        "text": "The most frequent and most children's name is Pratyush of 5 children and Aman of 4 children. What does it say by shouting? Heap. How many elements do you need? Top K elements. Top K name. What does it say by shouting? Heap. But where is the problem? This is Heap. How to store this data in Heap? For example,"
+      },
+      {
+        "video_id": "ks8rocoXbJk",
+        "title": "5 Step Template To Solve any HEAP Problem | DSA PATTERNS 2026",
+        "start": 64.43,
+        "score": 0.5597266,
+        "text": "if you haven't seen any video of heap before then also it is beneficial for you, then also you will understand well after watching this video, you may have to go and see question by question that yes, it was made from this only so the purpose of teaching that question was so that in the end we can teach you this consolidated template so let's start without any delay first of all, let's come to step 1 step 1 is that you have to know whether this is a heap question or not how will you know, whenever you see such a top k, bottom k"
+      },
+      {
+        "video_id": "_1AbrkD8pak",
+        "title": "Introduction To Heap DSA Pattern | One Of The Most Important Patterns For Coding Interviews",
+        "start": 1907.92,
+        "score": 0.5551754,
+        "text": "What was the power of stack? I used to tell you that the most recent one is the one which is kept. What is the power of heap? From what we have seen till now, which is the maximum or minimum? So this is the power of heap. This heap offers you. Heap can only do this for you. There is no other thing which will help you with heap. That's why, first of all, if in the question, K is written as smallest or largest, we will see all the questions. Don't worry, there is no need to remember this. Make a note and write it somewhere. Top K elements. Closest, furthest. See, what is this?"
+      }
+    ]
+  },
+  {
+    "question": "binary search me aggressive cows problem kaise solve kare",
+    "status": "FAIL",
+    "reason": "Expected video/timestamp not found in top 5",
+    "answer": "**Aggressive Cows problem – solving it with binary search**\n\n1. **What to maximize?**  \n   - The *minimum* distance between any two cows.  \n   - As the transcript says, “Minimum distance between any two cows … is the same thing as the distance between any two adjacent cows” and we need to **maximize** that distance【TF53eWL47ws, 09:26–09:56】.\n\n2. **Why binary search works**  \n   - We “guess” a distance `d`.  \n   - If we can place all `k` cows with at least `d` distance, then any smaller distance will also work (monotonic property).  \n   - If we cannot place them, any larger distance will also fail. This makes the problem a perfect fit for binary search【TF53eWL47ws, 09:56–10:25】.\n\n3. **Greedy check (feasibility function)**  \n   - Sort the stall positions.  \n   - Place the first cow at the first stall.  \n   - For each next stall, if `stall[i] – lastPlaced >= d`, place another cow there and update `lastPlaced`.  \n   - Continue until you either place all `k` cows (return **true**) or run out of stalls (return **false**).  \n   - The transcript shows this idea: “when we come here at 8 … the first cow was here … distance is 4 … we can place here … because our 4 is bigger than 3 … update it … and pass `k` (number of cows)”【TF53eWL47ws, 27:08–27:36】.\n\n4. **Binary‑search loop**  \n   - `low = 0` (or 1) and `high = maxPosition – minPosition`.  \n   - While `low <= high`:\n     - `mid = (low + high) / 2`.\n     - If `canPlace(mid)` is true → store `mid` as a possible answer and try a larger distance: `low = mid + 1`.\n     - Else → try a smaller distance: `high = mid - 1`.\n   - The final stored `mid` is the **maximum possible minimum distance**.\n\n5. **Result**  \n   - The binary‑search gives the largest distance `d` such that all `k` cows can be placed with at least `d` units apart.\n\n**Reference video**  \n- *Best Explanation of Aggressive Cows Leetcode | Binary Search DSA Pattern*  \n- Timestamp: 09:56 – 10:25 (explains the goal and binary‑search idea)  \n- URL: https://www.youtube.com/watch?v=TF53eWL47ws&t=596s  \n\nThis is the complete approach described in the provided transcripts.",
+    "retrieved": [
+      {
+        "video_id": "TF53eWL47ws",
+        "title": "Best Explanation of Aggressive Cows Leetcode | Binary Search DSA Pattern",
+        "start": 1628.51,
+        "score": 0.56920344,
+        "text": "means cow 3 means cow 2 and not cow 1 so now you have to make this your position and calculate from here so when we come here at 8 so what we will see that the first cow was here so 4 to 8 its distance is equal to 4 so we can place here or we can do yes because our 4 is bigger than 3 or equal so we can do so that's why update it and do like this in the last in the last in the last now see here you will pass k also k means number of cows"
+      },
+      {
+        "video_id": "TF53eWL47ws",
+        "title": "Best Explanation of Aggressive Cows Leetcode | Binary Search DSA Pattern",
+        "start": 596.13,
+        "score": 0.5687425,
+        "text": "Minimum distance between any two cows. Which is? Minimum distance between any two adjacent cows. Any two adjacent cows. What does it have to do? It has to maximize it. It has to maximize it. Okay. What did we do in binary search? What do we have to find? We guessed it. We guessed it. We guessed it. Let's see how we will guess it. And after guessing, how the answer will come. And what will be the monotonic answer so that it becomes the question of binary search. We will see all this. Watch it very carefully. It is a very good question."
+      },
+      {
+        "video_id": "zEEwwS9_fwA",
+        "title": "This is The Best Intro To Binary Search | DSA Patterns 2026",
+        "start": 8.34,
+        "score": 0.56048334,
+        "text": "After that, open the aggressive cow, then you will be completely aggressive that the question will not be made. Before today, binary search has not been taught like this, by dividing it phase-wise. There are four phases in total. My goal is that by the time these four phases and twenty questions are completed, binary search will become your favorite topic. Do you understand what binary search is? That is, get ahead of searching, sorting, sorted, and understand what binary search is."
+      },
+      {
+        "video_id": "TF53eWL47ws",
+        "title": "Best Explanation of Aggressive Cows Leetcode | Binary Search DSA Pattern",
+        "start": 566.45,
+        "score": 0.55408657,
+        "text": "Okay, we have seen that the minimum distance between any two cows is nothing. This is simply the same thing as the distance between any two adjacent cows. Any two adjacent cows. Okay. So we understood this thing that the distance between any two adjacent cows. What to do with this? Maximize it. What to do with this? Maximize it. We had said that the people who watched the new video of binary search, they will regret a lot in life. In binary search, you have to find one thing. What to find in this?"
+      },
+      {
+        "video_id": "S0E1Ix67qbc",
+        "title": "Believe Me, You DON'T Know The Binary Search Algorithm | DSA Patterns Course 2026",
+        "start": 1360.98,
+        "score": 0.54874766,
+        "text": "Exactly this story can be asked from you. The famous questions you see, aggressive cows, cocoa bananas, they are based on this story. They are based on this real life story. That is why it is called binary search. The work we have done, the smart way we have found to guess, the smart way we have found to guess, that is called binary search. That is called binary search."
+      }
+    ]
+  },
+  {
+    "question": "binary search on answer kya hota hai",
+    "status": "PASS",
+    "reason": "Expected video and timestamp found",
+    "answer": "I don't know based on the provided JSON transcripts.",
+    "retrieved": [
+      {
+        "video_id": "0Kxg0LPGwFo",
+        "title": "One Video To Solve All Binary Search Interview Questions | DSA Patterns 2026",
+        "start": 73.34,
+        "score": 0.65390146,
+        "text": "And again, thank you and let's start the video. Come, first of all we will explain you the question in Hindi. And my target is that you understand this question. You also understand that what is the question of binary search? How to recognize such questions? Because we don't want you to remember that these 5 things are of binary search. No, many questions are possible. We want you to understand that what is this question? How to recognize it? And how to solve it? It will be the same template of everything. So first of all, we will tell you the question in Hindi. So it will be given like a story."
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 866.96,
+        "score": 0.55154383,
+        "text": "kya hai"
+      },
+      {
+        "video_id": "CDo0V5Jbb2o",
+        "title": "Introduction to Binary Search Tree! Don't Miss",
+        "start": 1076.85,
+        "score": 0.54747605,
+        "text": "Node right and K. Yes. And return. Khatam. Khatam. Khatam. Yeh program. Dekhiye. Isme kabhi bhi ham log dono me nahi ja rahe hain. Upar wale code me kaha jaate the. Dono me. Left right dono me. Yeh linear search tha. Yeh to aisa tha ki unsorted array me search kar rahe hain. To kya karoge. Pura array search karo bhai. Aur kya kar sakte. Lekin. Yeh ek sorted array ki tarah behave karta hai. Ek iske tarah behave karta hai. Ek sorted array ki tarah. Batahin ki kaise behave karta hai. To isme ham log kya karene. Har baar. Ya to left ya to right. Ya to left ya to right. Order of."
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 865.7,
+        "score": 0.5157583,
+        "text": "fun of 1 ka answer abko malum hai"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1724.92,
+        "score": 0.50861466,
+        "text": "zero hai toh iska answer kya aega previous plus previous of previous okay very good very good"
+      }
+    ]
+  },
+  {
+    "question": "LCA in binary tree kaise nikalte hain",
+    "status": "PASS",
+    "reason": "Expected video and timestamp found",
+    "answer": "**Answer (in Hindi)**  \n\nBinary tree में LCA (Lowest Common Ancestor) निकालने का तरीका यह है कि आप **उस नोड को खोजें जहाँ दो दिए गये नोड P और Q पहली बार अलग‑अलग सब‑ट्री (एक बाएँ, एक दाएँ) में हों**। वही नोड उनका LCA होगा। इसे आप पेड़ को **ड्रॉ करके** देख सकते हैं – जब आप देखते हैं कि एक नोड बाएँ साइड में है और दूसरा दाएँ साइड में, तो उस बीच का नोड आपका LCA है। इस विधि में कोई गणितीय फॉर्मूला नहीं, बस पेड़ की संरचना को देखना है।\n\n**Relevant video segment**  \n- *Title*: **LCA in Binary Search Tree – Don't Miss This Trick! | Trees Ep 08 | DSA Series**  \n- *Timestamp*: **05:54 – 06:23**  \n- *URL*: https://www.youtube.com/watch?v=QopDohCvJVA&t=354s  \n\n(इस हिस्से में बताया गया है कि “एक नोड बाएँ साइड पर और दूसरा दाएँ साइड पर हो तो वह LCA है” और इसे ड्रॉ करके समझा गया है।)",
+    "retrieved": [
+      {
+        "video_id": "QopDohCvJVA",
+        "title": "LCA in Binary Search Tree – Don't Miss This Trick! | Trees Ep 08 | DSA Series",
+        "start": 51.68,
+        "score": 0.72605634,
+        "text": "It is very important to see this too, because that approach will not work here. Let me tell you first, those who have seen LCA in binary tree, it is important to see this, because that approach will not work here. When we were studying, we also left BST after seeing binary tree, that what is it, we will put that only in it. No, there are different questions for some reason, if we put that only, then why does it make the same question, it is not crazy. So see, and those who have not seen LCA in binary tree, we will congratulate them a lot, but first see that, then see this. Come on, let's start quickly."
+      },
+      {
+        "video_id": "QopDohCvJVA",
+        "title": "LCA in Binary Search Tree – Don't Miss This Trick! | Trees Ep 08 | DSA Series",
+        "start": 109.42,
+        "score": 0.67547154,
+        "text": "that one will not be accepted. If you put the LCA one here, then it will not be accepted. Because it will say, if you want to ask LCA in binary search tree, then tell me about this. That is fine, that is a good thing, but tell me about this one, then it will not be accepted. Now look at this. Before doing anything in this, let's think what does LCA mean? LCA means, when we make a drawing and see it in the tree, we have made BST, by the way. This binary tree is not normal, BST, you can see that every parent,"
+      },
+      {
+        "video_id": "QopDohCvJVA",
+        "title": "LCA in Binary Search Tree – Don't Miss This Trick! | Trees Ep 08 | DSA Series",
+        "start": 80.43,
+        "score": 0.6585348,
+        "text": "So look at the question, the question is the same as LCA, that you have to take out LCA in BST, not binary tree, BST, we have learned binary tree, that video which is not seen, which people jumped here for the first time, see that video, that is one of my best videos, see that once, so see, if you want, then you can put LCA of binary tree here too, because see, what is BST, BST is binary tree, binary tree with a search is like, less in left and more in right, whatever it is, it is binary tree, so that too can be put here, but in interview,"
+      },
+      {
+        "video_id": "QopDohCvJVA",
+        "title": "LCA in Binary Search Tree – Don't Miss This Trick! | Trees Ep 08 | DSA Series",
+        "start": 354.19,
+        "score": 0.64087015,
+        "text": "We are telling this by drawing, there is no math in this. By drawing, we can know that there is one node on the left side of the LCA and there is another node on the right side of the LCA. This is LCA. So that's it. Let's use the same thing in BST. Let's use the same thing in BST. Let's tell you how to use it. Let's assume that you have to find the LCA of two nodes. P and Q. You are on one circle of the tree."
+      },
+      {
+        "video_id": "QopDohCvJVA",
+        "title": "LCA in Binary Search Tree – Don't Miss This Trick! | Trees Ep 08 | DSA Series",
+        "start": 301.14,
+        "score": 0.54567486,
+        "text": "If you get 18 on the right side of 15, then what happened to 15? 15 became a split point, where it split, where what happened? It split for the first time. If we give an example of a small tree, then how are we always getting LCA? We are getting one LCA here, whichever node it is, and what are we getting on the left side of it? P. It's not like direct."
+      }
+    ]
+  },
+  {
+    "question": "binary tree ka diameter kaise nikale",
+    "status": "PASS",
+    "reason": "Expected video and timestamp found",
+    "answer": "**Answer**\n\nBinary tree ka **diameter** wo sabse lamba distance hota hai jo **do leaf nodes** ko connect karta hai.  \nYeh distance hi tree ka maximum distance hota hai – agar aap koi middle node ya ek leaf‑non‑leaf pair connect karte hain, to aap kabhi bhi maximum distance nahi paate.  \n\nIsliye diameter nikalne ke liye aapko:\n\n1. Tree ke sab leaf nodes ko dekhna hota hai.  \n2. Un leaf nodes ke beech ka **sabse bada path (distance)** hi diameter hota hai.\n\n> *“Any diameter, from anywhere, it will connect the leaf nodes. By connecting any two leaf nodes, you can get the maximum distance. By connecting any two middle nodes, you can't get it.”* – _Diameter of Binary Tree | Check Complete Binary Tree | Tree DSA Series_, 12:36‑13:04  \n\n> *“You are given a binary tree, as usual, and you have to find its diameter… What is diameter?”* – _Diameter of Binary Tree | Check Complete Binary Tree | Tree DSA Series_, 01:49‑02:17  \n\n**Video reference**  \n- **Title:** Diameter of Binary Tree | Check Complete Binary Tree | Tree DSA Series  \n- **Timestamp:** 01:49 – 02:17 (definition) and 12:36 – 13:04 (leaf‑node explanation)  \n- **URL:** https://www.youtube.com/watch?v=_V7J7exlyzk&t=756s  \n\nIf you need a concrete implementation, you would typically perform a depth‑first search (DFS) that, for each node, computes the heights of its left and right subtrees and keeps track of the maximum value of `leftHeight + rightHeight + 1`. That maximum value is the diameter. (This follows directly from the definition that the diameter is the longest leaf‑to‑leaf path.)",
+    "retrieved": [
+      {
+        "video_id": "_V7J7exlyzk",
+        "title": "Diameter of Binary Tree | Check Complete Binary Tree | Tree DSA Series",
+        "start": 756.56,
+        "score": 0.51226664,
+        "text": "Any diameter, from anywhere, it will connect the leaf nodes. By connecting any two leaf nodes, you can get the maximum distance. By connecting any two middle nodes, you can't get it. No matter how big the tree is, no matter how complex the tree is, if you connect any middle nodes, even one leaf and one non-leaf, you won't get it. Why? Because, suppose you have such a thought process, that we will do one thing. We will do one thing. Suppose you have a leaf node."
+      },
+      {
+        "video_id": "_V7J7exlyzk",
+        "title": "Diameter of Binary Tree | Check Complete Binary Tree | Tree DSA Series",
+        "start": 109.07,
+        "score": 0.5042931,
+        "text": "and you have only feasible way of studying, then do study. So don't take too much time in DSM, finish it immediately. Come, let's start. Come, let's move on to the first question. What does the first question ask you? You are given a road of a binary tree, as usual, and you have to find its diameter. What is diameter? You must have heard diameter in circle in class, you must have studied in school. You have to find the diameter of a binary tree. So what does it say? What is diameter? What has it said? It has said,"
+      },
+      {
+        "video_id": "5PrzZfhk1OQ",
+        "title": "The BST Validation Problem Everyone Gets Wrong",
+        "start": 59.68,
+        "score": 0.50100523,
+        "text": "and here is 12 and here is 18. So, look carefully whether it is BST or not. There are many ways to see BST. One way is that, see here is 10. The left of 10 is 5 and this is 15. So, it is working perfectly. Its left, root and right should work in this order. Now, 5 is there. 5's left is 2. So, 2 is smaller than 5 and smaller than 10. Very good. 5's right should be bigger than that. But, it should not be so big in the right that it should be bigger than 10. It should be smaller than 10."
+      },
+      {
+        "video_id": "Zr2z8DD6TuQ",
+        "title": "Definitely Better Than Striver.. Two Sum in Binary search Tree!",
+        "start": 85.84,
+        "score": 0.5000092,
+        "text": "this question will not be understood by the leetcode that this is a very easy question it is written easy, but it is not easy, it is a very hard question according to me, the question we have done till now in tree, this is going to be the hardest question, so keep some patience it is possible that you may not understand what is happening but keep some patience and some courage, you will understand everything the question is that you have been given a binary sub-tree, there are numbers in the tree like 5, 4, whatever tree it may be, from that"
+      },
+      {
+        "video_id": "Sat-0sqezpM",
+        "title": "Path Sum Problem in 5 Minutes - No Confusion",
+        "start": 543.31,
+        "score": 0.4779243,
+        "text": "Let me tell you again what we are doing. See. 1, 2, 3, 4. This is your tree. First of all, we started with root. First of all, the program will start with root. So, root is equal to 1. And sum. How much should be sum in the beginning? When you don't have anything in the beginning, then how much? It should be 0. It became 0. First of all, check if it is null. It is not null. Is it leaf? It is not null. It is circle. So, first of all, what have we done? Sum is equal to"
+      }
+    ]
+  },
+  {
+    "question": "level order traversal kaise karte hain",
+    "status": "FAIL",
+    "reason": "Expected video/timestamp not found in top 5",
+    "answer": "**Level order traversal करने का तरीका**\n\n1. **एक Queue बनाइए** – यह डेटा‑स्ट्रक्चर आपको “पहले आया, पहले निकले” (FIFO) क्रम में नोड्स को प्रोसेस करने में मदद करता है.  \n2. **Root को Queue में डालिए** – Root (जैसे “Dadaji”) को पहले enqueue करें.  \n3. **जब तक Queue खाली न हो**  \n   * Queue के front से नोड निकालिए (dequeue) और उसका मान (या डेटा) रिकॉर्ड कीजिए.  \n   * उस नोड के **बाएँ** और **दाएँ** चाइल्ड को क्रमशः Queue के back में डालिए (enqueue).  \n4. **हर लेवल को अलग‑अलग एरे में रखें** – पहले लेवल में केवल Root, दूसरे लेवल में उसके दो बच्चे (Papa, Chacha), तीसरे लेवल में उनके बच्चे (Pratyush, Mohit, Suman) आदि. इस तरह आप “लेवल 1, लेवल 2, लेवल 3 …” के अनुसार डेटा को व्यवस्थित कर सकते हैं।  \n5. **हर लेवल को बाएँ‑से‑दाएँ (left‑to‑right) क्रम में पढ़ें** – जैसा कि वीडियो में बताया गया है, प्रत्येक लेवल के नोड्स को बाएँ से दाएँ क्रम में लिखें।\n\n> *“So first of all, whatever is the traversal of the level order, make a Q… This Q will contain people of any level at any time.”* – EP 03: Level Order Traversal In Binary Tree | Intuition and Template, 13:30‑13:58【-g6h0Ok1Buk.json】  \n> *“Then 2nd and 3rd… you have to make a separate array in which Papa and Chacha are there… Level 3… Pratyush, Mohit and Suman… return left to right.”* – EP 03: Level Order Traversal In Binary Tree | Intuition and Template, 11:52‑12:19【-g6h0Ok1Buk.json】  \n> *“Do left to right in every level… Papa first, uncle later… Pratyush Mohit Suman.”* – EP 03: Level Order Traversal In Binary Tree | Intuition and Template, 32:11‑32:41【-g6h0Ok1Buk.json】\n\n**वीडियो विवरण**  \n- **Title:** EP 03: Level Order Traversal In Binary Tree | Intuition and Template  \n- **URL:** https://www.youtube.com/watch?v=-g6h0Ok1Buk&t=712s (उपरोक्त टाइमस्टैम्प देखें)  \n\nइस प्रक्रिया को कोड में लागू करने के लिए आप सामान्यतः एक `queue` (जैसे `std::queue` या `Queue` क्लास) का उपयोग करते हैं और ऊपर बताए गए चरणों को दोहराते हैं। यही है level order traversal करने का मूल तरीका।",
+    "retrieved": [
+      {
+        "video_id": "-g6h0Ok1Buk",
+        "title": "EP 03: Level Order Traversal In Binary Tree | Intuition and Template",
+        "start": 712.03,
+        "score": 0.67106444,
+        "text": "Then 2nd and 3rd. So level order traversal means that you have to make different types of arrays. You have to make one array in which the upper level is there. Upper level means in which this is there. In which Dadaji is there. This is 1. Level 1 is over. How many people are there in level 2? 2 people. Papa and Chacha. So you have to make a separate array in which Papa and Chacha are there. Very good. Level 3. What is level 3? In which there are 3 people. Pratyush, Mohit and Suman. So you have to return left to right. Left to right. Remember to return left to right."
+      },
+      {
+        "video_id": "-g6h0Ok1Buk",
+        "title": "EP 03: Level Order Traversal In Binary Tree | Intuition and Template",
+        "start": 308.19,
+        "score": 0.65860224,
+        "text": "Tell me, okay. In the last level, Pratyush, Pranjal and Mohit will come. What will they be? Gen Z. So if you make a horizontal line, then whoever is on one level, we call them on one level, that they are on one level. What is the level order traversal? That you don't have to do like this, that you have to take root, its left side, you don't have to do like this. You have to go level by level. So if someone tells you to write its level order traversal, then you can write like this, that suppose you will write first, that first there is a man A3. Okay."
+      },
+      {
+        "video_id": "-g6h0Ok1Buk",
+        "title": "EP 03: Level Order Traversal In Binary Tree | Intuition and Template",
+        "start": 810.03,
+        "score": 0.6326084,
+        "text": "So first of all, whatever is the traversal of the level order, make a Q. What will you make? Q. In which one way it will be front and from here it will be back. Okay? Make a level Q. Okay? This Q will contain people of any level at any time. How will it do? I will tell you. Okay. So first of all, what will we do? Assume that you will get root. Root means this. Dadajiwala is called root. This root will remain. I have told you to tell me the level order. Okay. If the root is null."
+      },
+      {
+        "video_id": "_V7J7exlyzk",
+        "title": "Diameter of Binary Tree | Check Complete Binary Tree | Tree DSA Series",
+        "start": 1898.16,
+        "score": 0.62899613,
+        "text": "To solve this question, because this question is telling you about level, this question is about levels. It is telling you that level should not be like this, level should not be like this. What do you remember from this? Level order traversal. Level order traversal. Because in this, you will not be able to do like this that you run a DFS and you are going left or right of the route. That will not happen. Because here it is talking about levels. That every level should be like this, last level should be like this. So you will have to run level order. I will show you a very interesting property of this."
+      },
+      {
+        "video_id": "-g6h0Ok1Buk",
+        "title": "EP 03: Level Order Traversal In Binary Tree | Intuition and Template",
+        "start": 1931.98,
+        "score": 0.62666714,
+        "text": "Where will the question change? The question will change like this. Now here you are told to do level order traversal. And in every level, in every level, do left to right. Do left to right in every level. What does left to right mean? In the first level, if there is only one, then do it. In the second level, there are two people. Papa and uncle. Write them left to right. Papa first, uncle later. In the third level, there are three people. So write them left to right. Pratyush Mohit Suman. So this is the question. What can you say to this? Write right to left in every level."
+      }
+    ]
+  },
+  {
+    "question": "recursion ka template kya hai",
+    "status": "FAIL",
+    "reason": "Expected video/timestamp not found in top 5",
+    "answer": "I don't know based on the provided JSON transcripts.",
+    "retrieved": [
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 958.7,
+        "score": 0.63358915,
+        "text": "Aapka recursion kya ho jayega"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 866.96,
+        "score": 0.59198713,
+        "text": "kya hai"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1680.88,
+        "score": 0.5808221,
+        "text": "ab dekhiye am kya khel karte hain"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 342.28,
+        "score": 0.5645528,
+        "text": "If you have written its recursion approach"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1768.84,
+        "score": 0.5578834,
+        "text": "previous ya previous hai, previous ka"
+      }
+    ]
+  },
+  {
+    "question": "backtracking aur recursion me kya farak hai",
+    "status": "PASS",
+    "reason": "Expected video and timestamp found",
+    "answer": "I don't know based on the provided JSON transcripts.",
+    "retrieved": [
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 957.28,
+        "score": 0.6153032,
+        "text": "Aur aapka recursion end ho jayega"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 958.7,
+        "score": 0.58226293,
+        "text": "Aapka recursion kya ho jayega"
+      },
+      {
+        "video_id": "A3sZWwalzz4",
+        "title": "We Crossed 50K! Let's Study Bellman-Ford NOW",
+        "start": 1714.0,
+        "score": 0.5390515,
+        "text": "testing karne ke liye ek aur baar karo, ek aur baar karo. Agar us ek aur baar me koi sahi answer nahi, koi acha answer nahi mila, koi update nahi hua, very good, return kar do. Agar us nth baar me, agar aapko pata chalene lagta hai ki nahi, abhi bhi chota answer mil raha hai kisi ka to, wo graph ekdum gone case hai, bekaar graph, negative case ka graph hai, usme minus one return kar do. Yeh hota hai Bellman-Ford. Thik hai. Toh umeet karte hai ki aapko samajh me aaya hoga, bahut acche se."
+      },
+      {
+        "video_id": "YkM-xfnZ4DY",
+        "title": "DP in 15 Days Episode 12 : LCS In 20 Minutes",
+        "start": 834.78,
+        "score": 0.5235792,
+        "text": "n plus 1 cross m plus 1 size ka. Uske baad kya hai? Uske baad toh bohot simple hai. Uske baad agar koi bhi recursive function hota hai, usme answer nikalane se pehle dekh lijiye. Kya dekh lijiye? Ki agar dp of i or j not equal to minus 1, then simply return dp of i or j. Yeh toh 1000 baar bata chuppe, yeh hi karna hota hai."
+      },
+      {
+        "video_id": "4L4MYtxGh9s",
+        "title": "Rotten Oranges: Multi-Source BFS | Graph Series",
+        "start": 2090.9,
+        "score": 0.50776005,
+        "text": "minus minus kar denge ye aapka if loop bandh hua ye aapka k wala loop bandh hua fir aapka shayad ye size wala loop aur ye aapka main wala loop bandh ho gaya niche aake agar fresh abhi bhi zero se bada hai kuch nahi kar sakte aap return minus 1 nahi to return time ye main loop bandh ho gaya dekh lije code thoda lamba ho gaya shayad dekh lije ye pura code hai"
+      }
+    ]
+  },
+  {
+    "question": "bit manipulation me XOR ke tricks",
+    "status": "PASS",
+    "reason": "Expected video and timestamp found",
+    "answer": "I don't know based on the provided JSON transcripts.",
+    "retrieved": [
+      {
+        "video_id": "T56nhL8Y1po",
+        "title": "Master Bit Manipulation in One Video | XOR Tricks + Interview Questions",
+        "start": 3656.45,
+        "score": 0.61071396,
+        "text": "But these are the basics of bit manipulation. You have learned a lot. See you in the next lecture."
+      },
+      {
+        "video_id": "T56nhL8Y1po",
+        "title": "Master Bit Manipulation in One Video | XOR Tricks + Interview Questions",
+        "start": 2841.63,
+        "score": 0.56425214,
+        "text": "Is this bit unset? It is completely unset. So what did we do in this? For unset, make a bit mask. Make a not of bit mask. And done. It is unset. So you have learnt 4 types of tricks. Which 4 types of tricks? First, check if it is set or not. Check if it is set or not. What used to happen? Bit mask and if result 0 is unset, result 1 is set. Second, set the it bit. Make a bit mask."
+      },
+      {
+        "video_id": "T56nhL8Y1po",
+        "title": "Master Bit Manipulation in One Video | XOR Tricks + Interview Questions",
+        "start": 2784.18,
+        "score": 0.5527348,
+        "text": "Set the third bit. Sorry, unset the third bit. Means, unset this one. Make this one 0. Make this one 0. Look at the second bit to understand. This is already 0. Look at the second bit. Means, the second bit is 1. Make it 0. Means, whatever the second bit is, make it 0. Just opposite of set. What will we do? Look. First of all, we will make bit mask. First of all, we will make bit mask. What will be the second bit's bit mask? 1, left shift 2. So, this will look like this."
+      },
+      {
+        "video_id": "dyG4JBKh6tA",
+        "title": "DP Full Revision and Next Steps | DP Series Episode 16",
+        "start": 1117.12,
+        "score": 0.52907586,
+        "text": "There are 3-4 types of topics. The first topic is Bit Manipulation, which we will teach. There is no need to learn much in this. A little bit manipulation because people don't know bit, they don't understand what bit is. In this, in 2-3 questions, you will learn it. You will learn it like a job. Bit manipulation is also a very rare topic. It means it is asked very rarely. Okay. In this, there are Zor questions. Generally, bit manipulation is very important for those who do competitive programming because it is very important there."
+      },
+      {
+        "video_id": "T56nhL8Y1po",
+        "title": "Master Bit Manipulation in One Video | XOR Tricks + Interview Questions",
+        "start": 2721.63,
+        "score": 0.5091142,
+        "text": "You can make a bitmask and toggle any bit without touching the rest of the numbers. So these are the three types of tricks. What are they dependent on? Bitmasking. On what? Bitmasking. Yes, bitmasking. You can do very powerful things with bitmasking."
+      }
+    ]
+  },
+  {
+    "question": "greedy algorithm kab use karte hain",
+    "status": "PASS",
+    "reason": "Expected video and timestamp found",
+    "answer": "**Greedy algorithm को तब इस्तेमाल करते हैं जब **  \n\n* आप वर्तमान में जो सबसे अच्छा विकल्प (locally optimal choice) देख रहे हैं, वह भविष्य में किसी समस्या का कारण नहीं बनता।  \n* यदि आप इस विकल्प को लेकर “भविष्य में कोई दिक्कत नहीं होगी” ऐसा सोचते हैं और कोई विरोधी उदाहरण नहीं सोच पाते, तो greedy‑approach को अपनाएँ।  \n* दूसरे शब्दों में, जब आप “अब के लिए सबसे अच्छा लगता है” वाला चुनाव कर सकते हैं और उसे लेकर भविष्य में कोई नुकसान नहीं दिखता, तो greedy algorithm उपयुक्त होता है।\n\n**स्रोत:**  \n- *Greedy Algorithms: From Zero to Interview‑Ready* – 08:57 – 09:25  \n  <https://www.youtube.com/watch?v=OaHw9ZZHknw&t=537s>  \n- *Greedy Algorithms: From Zero to Interview‑Ready* – 10:06 – 10:31  \n  <https://www.youtube.com/watch?v=OaHw9ZZHknw&t=606s>  \n\n(यदि इस संदर्भ में उत्तर नहीं मिलता तो: “I don't know based on the provided JSON transcripts.”)",
+    "retrieved": [
+      {
+        "video_id": "OaHw9ZZHknw",
+        "title": "Greedy Algorithms: From Zero to Interview-Ready",
+        "start": 361.02,
+        "score": 0.5917582,
+        "text": "If you want to give Rs. 90, then you have a choice. Give 10 for 9 notes, 20 for 4 notes and so on. What choice are you taking? Which is best for that time and everything gets fixed in the end. This is what is expected. This is exactly what the greedy algorithm says. Listen, you have choices. You will have different choices. You don't have to think too much. Right now, in the present, do the choice that is best for you."
+      },
+      {
+        "video_id": "OaHw9ZZHknw",
+        "title": "Greedy Algorithms: From Zero to Interview-Ready",
+        "start": 537.95,
+        "score": 0.56232023,
+        "text": "It can be proved wrong in the future. If you think of an example in your mind that it is possible, then you don't have to apply greedy. If you are not able to think of any such scenario, you think that no, what we are doing right now will be absolutely right. It can't happen that we will have a problem with it in the future. Means it can't happen that we will have a problem with this choice in the future. Then apply the greedy algorithm in it. For example, let's make a small twist in this question. What was it now?"
+      },
+      {
+        "video_id": "OaHw9ZZHknw",
+        "title": "Greedy Algorithms: From Zero to Interview-Ready",
+        "start": 606.4,
+        "score": 0.55195165,
+        "text": "There is no rule that you have to apply here and not here. No. If your current choice, you are thinking that there can be a problem in the future, then don't apply the greedy algorithm. If you are not thinking of any such example that no, there can never be a problem in the future by taking this choice, then apply the greedy algorithm. For example, when your father plans to go somewhere, then what does he do? He fixes the things, right? What happens when you fix the things?"
+      },
+      {
+        "video_id": "dyG4JBKh6tA",
+        "title": "DP Full Revision and Next Steps | DP Series Episode 16",
+        "start": 1197.6,
+        "score": 0.54115033,
+        "text": "You will have to do 2-3 questions because you will get an idea when to use greedy. Greedy is a very confusing topic. It is very difficult to judge greedy. Greedy means greed algorithm. What does greed mean? That you are solving a program. What was the problem in DP? That you don't understand which choice to take. This used to happen. Greedy is also choice based. But in that, the choice that you are feeling the best right now. For now. The choice that you are feeling the best right now. Take that and call it greedy. For example."
+      },
+      {
+        "video_id": "OaHw9ZZHknw",
+        "title": "Greedy Algorithms: From Zero to Interview-Ready",
+        "start": 738.11,
+        "score": 0.5405047,
+        "text": "According to greedy algorithm, we will give 1 note of Rs. 50 and 2 notes of Rs. 20. And if I have Rs. 10, then 5 notes of Rs. 10 are still left. Now tell me, can there be any problem in the future with this choice? No. Why not? Let's assume that someone has to return Rs. 50 in the future."
+      }
+    ]
+  },
+  {
+    "question": "React hooks kaise kaam karte hain",
+    "status": "PASS",
+    "reason": "Correctly refused",
+    "answer": "I don't know based on the provided JSON transcripts.",
+    "retrieved": [
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1690.2,
+        "score": 0.45743382,
+        "text": "ab aap kya kiye the"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1691.68,
+        "score": 0.45743382,
+        "text": "ab aap kya kiye the"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 874.14,
+        "score": 0.4530903,
+        "text": "kaunsa dp ka slot bharaja raha hai"
+      },
+      {
+        "video_id": "ZvYJT_QwnEw",
+        "title": "Tree Traversals Made Simple! Preorder Inorder Postorder",
+        "start": 1065.71,
+        "score": 0.433883,
+        "text": "Chocolate khane ko kaam samajhiye. Dadaji ka kaam kya tha? Khana. Khud khana. Khud khana kaam hai. Khud khana kaam tha. Jaisa print karna kaam hai na. Khud khana kya hai? Ek kaam hai. Lekin, in order ka matlab kya hota hai? Pehle hum kisko mauka denge? Pehle hum kisko mauka denge? Apne left child ko. Pehle hum kisko chocolate khane ka mauka denge? Apne left child ko."
+      },
+      {
+        "video_id": "DL8LSXUsfWE",
+        "title": "DSA PATTERNS Episode 11 Sliding Window Pattern: Easy & Medium Questions",
+        "start": 3919.47,
+        "score": 0.4330126,
+        "text": "Jav tak kaam ho raha hai. Jav tak kaam ho raha hai. While loop hai. Ek baar nahi. Loop hai. If nahi hai. Loop hai. Jav tak kaam ho raha hai. While sum is greater than or equal to target. Tab tak. Tab tak kya karenge? Ek ek karke wo length nikaalenge. Answer me likhte jayenge. Answer me likh lo. And fire bhi karte jayenge. Ek ek karke. Ye firing. Ye firing yaha hua. Ye firing kab rukega? Hosekta hai. Ap jab ek admi ko fire kiye."
+      }
+    ]
+  },
+  {
+    "question": "kubernetes me pod aur deployment ka difference",
+    "status": "PASS",
+    "reason": "Correctly refused",
+    "answer": "I don't know based on the provided JSON transcripts.",
+    "retrieved": [
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1745.0,
+        "score": 0.36840993,
+        "text": "ek previous uska ek previous jo ki up dp of two ko hona padega aur uska previous ka previous jo ki"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1676.3,
+        "score": 0.34218484,
+        "text": "usko yaha pe rakh ke"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 953.96,
+        "score": 0.33539945,
+        "text": "Ye karne ke baad"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1763.48,
+        "score": 0.33134454,
+        "text": "ko thoda change karna padega."
+      },
+      {
+        "video_id": "2HZ12B2ZPAQ",
+        "title": "DSA PATTERNS Episode 13 Sliding Window Pattern: Important Questions",
+        "start": 1586.58,
+        "score": 0.32948104,
+        "text": "Difference is 2. And you have to change this difference. This difference makes a lot of mess. This difference makes a lot of mess that there are 2 differences. You have to change 2. So if we want to find the difference, then we will know how much change we have to make. And if that change is less than k, or if it is equal to k, then it is fine. Meaning if this 2, if you have given k2, then very good, you change 2. But if your k1 is there, then this will not be possible. Then you will have to"
+      }
+    ]
+  },
+  {
+    "question": "how do I file my income tax return in India",
+    "status": "PASS",
+    "reason": "Correctly refused",
+    "answer": "I don't know based on the provided JSON transcripts.",
+    "retrieved": [
+      {
+        "video_id": "93copdtW4ZQ",
+        "title": "No one Has Explained Dijkstra's Algorithm Like This On The Internet!",
+        "start": 1212.67,
+        "score": 0.37076545,
+        "text": "We will process it. We will process it. So who should you process? And why will you do it? We have already explained it to you. That two mistakes. It will be asked in the interview. Why are you doing it? It is possible. It will be asked. It is not so deep to ask. But okay. We have told you to tell. Because we don't want you to remember it. There is no use in remembering it. Don't ever remember it. That's why we do it. Because you don't have the right information about Delhi. You are processing Delhi forcibly. Let Delhi's right information come. Do Patna."
+      },
+      {
+        "video_id": "OaHw9ZZHknw",
+        "title": "Greedy Algorithms: From Zero to Interview-Ready",
+        "start": 105.07,
+        "score": 0.36661428,
+        "text": "There are many ways to return Rs.90. One way is to withdraw Rs.9-10 note. Another way to return Rs.90 is to withdraw Rs.4-20 note and Rs.1-10 note."
+      },
+      {
+        "video_id": "_V7J7exlyzk",
+        "title": "Diameter of Binary Tree | Check Complete Binary Tree | Tree DSA Series",
+        "start": 411.81,
+        "score": 0.32839835,
+        "text": "Where Rajdhani doesn't go, but it is somewhere outskirt. So let's assume that in Ranchi, there might be a place where we want to go to Deoghar. How will we go to Deoghar? We will take a local train from Ranchi to Deoghar and sit there. In Jharkhand, there might be a place where we want to go to Dhanbad. How will we go to Dhanbad? First we will come to Ranchi from Rajdhani, then we will catch a local train from Ranchi and go to Dhanbad. Similarly, you can come to Bangalore from Delhi, but let's assume that you don't want to go to Bangalore. You can go to Mysore from Bangalore."
+      },
+      {
+        "video_id": "OaHw9ZZHknw",
+        "title": "Greedy Algorithms: From Zero to Interview-Ready",
+        "start": 1523.02,
+        "score": 0.32752,
+        "text": "Final case. Else. Else. Else if. Write else if or else. We are writing it to explain. You gave 20 rupees. Now you have to return 15 rupees. You have two choices. Which two choices? 10 for 1 note. 5 for 1 note. And second choice is 5 for 3 note. So first check that if."
+      },
+      {
+        "video_id": "PvyEr3CeKzE",
+        "title": "Episode - 4 | Master DSA Patterns with the 2 Pointer Technique",
+        "start": 374.51,
+        "score": 0.3272184,
+        "text": "So, don't duplicate. There are 4 castes, so you have to give a house to each of them. You have to ignore the rest. This is your job as a Chief Minister. Now, what have I told you? You have an officer as well. You are the Chief Minister. You are the Chief Minister. We are small people. We are officers. What have I told you? It is like this. These people have been living in many houses since the beginning. These people have a lot of houses in Bihar."
+      }
+    ]
+  },
+  {
+    "question": "explain the attention mechanism in transformers",
+    "status": "PASS",
+    "reason": "Correctly refused",
+    "answer": "I don't know based on the provided JSON transcripts.",
+    "retrieved": [
+      {
+        "video_id": "7gOCx1vbx0k",
+        "title": "Linked List Reversal In the Easiest Way Possible | DSA Patterns Course 2026 CPP JAVA Python",
+        "start": 317.42,
+        "score": 0.34414202,
+        "text": "Mechanic has to move forward and stand on the sleeper. But helper also has to move forward. Because helper is standing on the back boogie. Helper is standing on the back boogie. So where will helper come? He will come on the AC. What will mechanic do? Mechanic will remove the sleeper wire. And where will he attach it? He will attach it on the AC. Because helper is standing there. Now what will mechanic do? Mechanic will move forward. Mechanic will move forward. Mechanic will move forward and come on the general."
+      },
+      {
+        "video_id": "7gOCx1vbx0k",
+        "title": "Linked List Reversal In the Easiest Way Possible | DSA Patterns Course 2026 CPP JAVA Python",
+        "start": 210.22,
+        "score": 0.34236962,
+        "text": "It doesn't know much, but it has a very special work. Let's see what is its special work. First of all, what will your mechanic do? Your mechanic will go and stand here. Where will your mechanic go? On the engine. He will stand on the first one. Now its work is to turn this arrow and turn it back. Turn it and turn it back. Towards whom? Towards the helper. Yes. So what is the work of the helper? Helper always"
+      },
+      {
+        "video_id": "HpsjPUwQHfw",
+        "title": "Word Ladder Explained Like a Pro! DSA Patterns Graph Series",
+        "start": 1529.28,
+        "score": 0.33904296,
+        "text": "The next letter means AB. Now you will take the position of B, the second letter. What will you make it? AA, AC, AD, AE, AF, Z. You will make it like this. So what does this thing do?"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1244.76,
+        "score": 0.33836892,
+        "text": "This will be told to you by a 10 class student. What is called this transformation? Tabulation."
+      },
+      {
+        "video_id": "-AEEZEWOA-E",
+        "title": "Master Bellman-Ford: Cheapest Flights Within K Stops",
+        "start": 1940.82,
+        "score": 0.3377913,
+        "text": "according to me, we have explained it very well if you don't understand, then ask in the comment if possible, we will tell you again in the comment is it right? make it and it is a very important question make it definitely see you in the next lecture bye bye"
+      }
+    ]
+  },
+  {
+    "question": "django me models kaise banate hain",
+    "status": "PASS",
+    "reason": "Correctly refused",
+    "answer": "I don't know based on the provided JSON transcripts.",
+    "retrieved": [
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 859.38,
+        "score": 0.41117626,
+        "text": "ye dp of 2 ban chuka hai"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1775.24,
+        "score": 0.39231992,
+        "text": "karne bhi, dp of 0 ke betha hua hai."
+      },
+      {
+        "video_id": "WR-hWofGb_U",
+        "title": "Graph Representation: Adjacency Matrix vs Adjacency List – Which is Better?",
+        "start": 1452.98,
+        "score": 0.38072747,
+        "text": "Input hai, ye sab aapka input hai. Aapko isko graph ke form me yato data structure me store karwana hai, yato kuch aur karwana hai. Acha. Ab, data structure me store karwane ke liye, sabse pehla kaam, jo hum pehle lecture me bata chuke hai, aap ek 2D matrix bana sakte hai. Kya bana sakte hai? 2D matrix bana sakte hai. Lekin woh nahi banana hai, bata dete hai. Bata dete hai. Aisa nahi hona chahi ki aata hi nahi hai. Aap ek 2D matrix bana sakte hai. Jaisa ki hum first lecture me kaisa dekhe the, ki jitne user the,"
+      },
+      {
+        "video_id": "yEwnsPI_tUY",
+        "title": "DP in 15 Days Episode 06 : No One Has Explained Tabulation Like This",
+        "start": 1739.8,
+        "score": 0.37972718,
+        "text": "three kaise nika liye ga dp of three ke liye kya do cheeze chahiye dp of three ke liye chahiye uska"
+      },
+      {
+        "video_id": "OSYgRvaWFSI",
+        "title": "No one has explained Topological sort like This!",
+        "start": 985.06,
+        "score": 0.37891784,
+        "text": "zero hai, zero ho chuka hai. Ab laptop kisi pe dependent nahi hai. Laptop ko shuru karne ke liye aapko kuch zaruwat nahi hai karne ki aapko bas ek laptop kharid lena hai. Ab kisko shuru kar sakte hai? Ab laptop ko shuru kar sakte hai. Ab kisko shuru kar sakte hai? Ab laptop ko shuru kar sakte hai. To yaha ham laptop ko one number pe shuru kar diye. Very good. Ab kya kare? Ab laptop to shuru kar diye. Maal liye aap boli laptop kharid liye."
+      }
+    ]
+  }
+]
